@@ -1,0 +1,16 @@
+Info: Procesando el símbolo 'C1:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm'.
+Info: Procesando el símbolo 'C2:Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm'.
+Info: Procesando el símbolo 'C3:Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm'.
+Info: Procesando el símbolo 'C4:Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm'.
+Info: Procesando el símbolo 'J1:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal'.
+Info: Procesando el símbolo 'J2:Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J3:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'J4:Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical'.
+Info: Procesando el símbolo 'J5:Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'R2:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'.
+Info: Procesando el símbolo 'U1:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Procesando el símbolo 'U2:Package_DIP:DIP-28_W7.62mm'.
+Info: Procesando el símbolo 'Y1:Crystal:Crystal_HC18-U_Vertical'.
+
+
+Info: Número de avisos: 0, errores: 0.
