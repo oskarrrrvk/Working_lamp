@@ -327,7 +327,7 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_sNTRAI4CEe6Pd9lnLReMOw" name="StateDiagram">
-        <packagedElement xmi:type="uml:StateMachine" xmi:id="_311bgI7gEe657-9J7Tdz5g" name="LampMachine">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_311bgI7gEe657-9J7Tdz5g" name="SAMMachine">
           <region xmi:type="uml:Region" xmi:id="_-ZNB4I7gEe657-9J7Tdz5g" name="Region1">
             <transition xmi:type="uml:Transition" xmi:id="_oVA8gI7hEe657-9J7Tdz5g" name="initialTransisition" source="_EKkjkI7hEe657-9J7Tdz5g" target="_RYogUI7hEe657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_uroY8I7kEe657-9J7Tdz5g" name="rcif == 1" source="_RYogUI7hEe657-9J7Tdz5g" target="_hg8yQI7iEe657-9J7Tdz5g"/>
@@ -371,6 +371,9 @@
           </region>
         </packagedElement>
         <packagedElement xmi:type="uml:StateMachine" xmi:id="_SQ4NkI76Ee6jjfrMhyPAPQ" name="StateMachine2">
+          <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_5phNkI8KEe65AtJv8ZogmQ" name="SMA_stateDiagram">
+            <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_MJoSwI8LEe65AtJv8ZogmQ" name="input" kind="entryPoint"/>
+          </ownedBehavior>
           <region xmi:type="uml:Region" xmi:id="_WMGtAI76Ee6jjfrMhyPAPQ" name="Region1">
             <transition xmi:type="uml:Transition" xmi:id="_CLmWoI77Ee6jjfrMhyPAPQ" name="turn_on_SMALamp" source="_cjZmQI76Ee6jjfrMhyPAPQ" target="_hcL6II76Ee6jjfrMhyPAPQ"/>
             <transition xmi:type="uml:Transition" xmi:id="_XzHRoI77Ee6jjfrMhyPAPQ" name="activate_SMAComp" source="_hcL6II76Ee6jjfrMhyPAPQ" target="_IGwtgI77Ee6jjfrMhyPAPQ"/>
@@ -378,13 +381,58 @@
             <transition xmi:type="uml:Transition" xmi:id="_7V3REI7-Ee6jjfrMhyPAPQ" name="EEPROM_empty == 0" source="_xol6gI7-Ee6jjfrMhyPAPQ" target="_HmtpkI79Ee6jjfrMhyPAPQ"/>
             <transition xmi:type="uml:Transition" xmi:id="__yi3wI7-Ee6jjfrMhyPAPQ" name="EEPROM_empty == 1" source="_xol6gI7-Ee6jjfrMhyPAPQ" target="_XN2hEI7-Ee6jjfrMhyPAPQ"/>
             <transition xmi:type="uml:Transition" xmi:id="_E5cgII7_Ee6jjfrMhyPAPQ" source="_dyrAUI77Ee6jjfrMhyPAPQ" target="_xol6gI7-Ee6jjfrMhyPAPQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_MLJVsI8LEe65AtJv8ZogmQ" source="_XN2hEI7-Ee6jjfrMhyPAPQ" target="_MJoSwI8LEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_OEDYEI8LEe65AtJv8ZogmQ" source="_HmtpkI79Ee6jjfrMhyPAPQ" target="_MJoSwI8LEe65AtJv8ZogmQ"/>
             <subvertex xmi:type="uml:Pseudostate" xmi:id="_cjZmQI76Ee6jjfrMhyPAPQ" name="Initial_State"/>
             <subvertex xmi:type="uml:State" xmi:id="_hcL6II76Ee6jjfrMhyPAPQ" name="SMALamp_turned_On"/>
             <subvertex xmi:type="uml:State" xmi:id="_IGwtgI77Ee6jjfrMhyPAPQ" name="SMAComp_activated"/>
             <subvertex xmi:type="uml:State" xmi:id="_dyrAUI77Ee6jjfrMhyPAPQ" name="System_monitored"/>
             <subvertex xmi:type="uml:State" xmi:id="_HmtpkI79Ee6jjfrMhyPAPQ" name="initial_Configuration_EEPROM"/>
-            <subvertex xmi:type="uml:State" xmi:id="_XN2hEI7-Ee6jjfrMhyPAPQ" name="initial_Configuration"/>
+            <subvertex xmi:type="uml:State" xmi:id="_XN2hEI7-Ee6jjfrMhyPAPQ" name="standard_Configuration"/>
             <subvertex xmi:type="uml:Pseudostate" xmi:id="_xol6gI7-Ee6jjfrMhyPAPQ" name="EEPROM_empty?" kind="choice"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_iXhRQI8LEe65AtJv8ZogmQ" name="Turn_Off_COMP_StateMachine">
+          <region xmi:type="uml:Region" xmi:id="_mHBB0I8LEe65AtJv8ZogmQ" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_2ehbwI8LEe65AtJv8ZogmQ" name="Initial_transition" source="_0LwH4I8LEe65AtJv8ZogmQ" target="_1pClQI8LEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_sb7DgI8NEe65AtJv8ZogmQ" name="tx =&quot;off&quot;" source="_1pClQI8LEe65AtJv8ZogmQ" target="_O-8BEI8NEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_1odEgI8NEe65AtJv8ZogmQ" source="_O-8BEI8NEe65AtJv8ZogmQ" target="_ypO6UI8NEe65AtJv8ZogmQ"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_0LwH4I8LEe65AtJv8ZogmQ" name="Initial_State"/>
+            <subvertex xmi:type="uml:State" xmi:id="_1pClQI8LEe65AtJv8ZogmQ" name="Before_turn_off_COMP"/>
+            <subvertex xmi:type="uml:State" xmi:id="_O-8BEI8NEe65AtJv8ZogmQ" name="turn_off_signal_sended"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_ypO6UI8NEe65AtJv8ZogmQ" name="turn_off"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="__RYGkI8NEe65AtJv8ZogmQ" name="Turn_Off_Lamp_StateMachine">
+          <ownedBehavior xmi:type="uml:StateMachine" xmi:id="__1ecsI8OEe65AtJv8ZogmQ" name="TurnOn_Lamp_StateDiagram">
+            <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_IcR6cI8PEe65AtJv8ZogmQ" name="input" kind="entryPoint"/>
+          </ownedBehavior>
+          <region xmi:type="uml:Region" xmi:id="_Gzf0MI8OEe65AtJv8ZogmQ" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_ct-ugI8OEe65AtJv8ZogmQ" name="initial_transition" source="_OYt5II8OEe65AtJv8ZogmQ" target="_T_sIsI8OEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_onghQI8OEe65AtJv8ZogmQ" name="EEPROM.ADDR0 = config" source="_T_sIsI8OEe65AtJv8ZogmQ" target="_h0hKgI8OEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_2gSO8I8OEe65AtJv8ZogmQ" name="tx = &quot;Off&quot;" source="_h0hKgI8OEe65AtJv8ZogmQ" target="_ses1QI8OEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_70SfMI8OEe65AtJv8ZogmQ" name="Sleep" source="_ses1QI8OEe65AtJv8ZogmQ" target="_5ffyEI8OEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_Ict_UI8PEe65AtJv8ZogmQ" name="wake_up_lamp" source="_5ffyEI8OEe65AtJv8ZogmQ" target="_IcR6cI8PEe65AtJv8ZogmQ"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_OYt5II8OEe65AtJv8ZogmQ" name="initial_state"/>
+            <subvertex xmi:type="uml:State" xmi:id="_T_sIsI8OEe65AtJv8ZogmQ" name="before_turn_off_Lamp"/>
+            <subvertex xmi:type="uml:State" xmi:id="_h0hKgI8OEe65AtJv8ZogmQ" name="configuration_saved"/>
+            <subvertex xmi:type="uml:State" xmi:id="_ses1QI8OEe65AtJv8ZogmQ" name="turn_off_messeage_sended"/>
+            <subvertex xmi:type="uml:State" xmi:id="_5ffyEI8OEe65AtJv8ZogmQ" name="Sleep_mode"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_q4FAQI8PEe65AtJv8ZogmQ" name="TurnOn_Lamp_StateMachine">
+          <region xmi:type="uml:Region" xmi:id="_suoSMI8PEe65AtJv8ZogmQ" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_87wLoI8QEe65AtJv8ZogmQ" name="turn_on" source="_mqX0QI8QEe65AtJv8ZogmQ" target="_31Fz0I8QEe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_Hce_cI8REe65AtJv8ZogmQ" source="_31Fz0I8QEe65AtJv8ZogmQ" target="_Dzb1II8REe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_N7axwI8REe65AtJv8ZogmQ" name="comp_sleep == 1" source="_Dzb1II8REe65AtJv8ZogmQ" target="_I0IH0I8REe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_pCLjsI8REe65AtJv8ZogmQ" name="comp_sleep == 0" source="_Dzb1II8REe65AtJv8ZogmQ" target="_mNeAYI8REe65AtJv8ZogmQ"/>
+            <transition xmi:type="uml:Transition" xmi:id="_soVyEI8REe65AtJv8ZogmQ" source="_I0IH0I8REe65AtJv8ZogmQ" target="_mNeAYI8REe65AtJv8ZogmQ"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_mqX0QI8QEe65AtJv8ZogmQ" name="initial_state"/>
+            <subvertex xmi:type="uml:State" xmi:id="_ogXFgI8QEe65AtJv8ZogmQ" name="SMA_Lamp_turned_on"/>
+            <subvertex xmi:type="uml:State" xmi:id="_31Fz0I8QEe65AtJv8ZogmQ" name="SMA_Comp_turned_On"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_Dzb1II8REe65AtJv8ZogmQ" name="comp_sleeping?" kind="choice"/>
+            <subvertex xmi:type="uml:State" xmi:id="_I0IH0I8REe65AtJv8ZogmQ" name="lamp_waked_up"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_mNeAYI8REe65AtJv8ZogmQ" name="final_state"/>
           </region>
         </packagedElement>
       </packagedElement>
