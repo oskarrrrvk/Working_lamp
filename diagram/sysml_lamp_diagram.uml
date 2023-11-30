@@ -329,8 +329,13 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_sNTRAI4CEe6Pd9lnLReMOw" name="StateDiagram">
         <packagedElement xmi:type="uml:StateMachine" xmi:id="_311bgI7gEe657-9J7Tdz5g" name="SAMMachine">
           <region xmi:type="uml:Region" xmi:id="_-ZNB4I7gEe657-9J7Tdz5g" name="Region1">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_hmblYI91Ee6DI7dMa2OsoQ">
+              <body>indicar prioridad de ejecucion&#xD;
+distintos escenarios de ejecucion.&#xD;
+Falta un estado para indicar que se ha recivido una interrupción</body>
+            </ownedComment>
             <transition xmi:type="uml:Transition" xmi:id="_oVA8gI7hEe657-9J7Tdz5g" name="initialTransisition" source="_EKkjkI7hEe657-9J7Tdz5g" target="_RYogUI7hEe657-9J7Tdz5g"/>
-            <transition xmi:type="uml:Transition" xmi:id="_uroY8I7kEe657-9J7Tdz5g" name="rcif == 1" source="_RYogUI7hEe657-9J7Tdz5g" target="_hg8yQI7iEe657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_uroY8I7kEe657-9J7Tdz5g" name="rcif == 1" source="_ykQJ4I-gEe6-J-sEZVCGSw" target="_hg8yQI7iEe657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_NEtrsI7vEe657-9J7Tdz5g" name="update_speed_value()" source="_QTDUII7oEe657-9J7Tdz5g" target="_tqzCgI7uEe657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_C5zE8I7xEe657-9J7Tdz5g" name="uart_value = rx" source="_hg8yQI7iEe657-9J7Tdz5g" target="_359TQI7wEe657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_Gn5uYI7xEe657-9J7Tdz5g" name="uart_value == '\0'" source="_359TQI7wEe657-9J7Tdz5g" target="_75ENII7wEe657-9J7Tdz5g"/>
@@ -344,13 +349,20 @@
             <transition xmi:type="uml:Transition" xmi:id="_pMFpQI7zEe657-9J7Tdz5g" name="send_new_pwm_signal()" source="_tqzCgI7uEe657-9J7Tdz5g" target="_d1K0UI7zEe657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_6lOfUI7zEe657-9J7Tdz5g" name="send_value_from_MOSI()" source="_jaCAgI7yEe657-9J7Tdz5g" target="_d1K0UI7zEe657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_EC7v4I70Ee657-9J7Tdz5g" name="send_value_from_MOSI()" source="_lWiwgI7yEe657-9J7Tdz5g" target="_d1K0UI7zEe657-9J7Tdz5g"/>
-            <transition xmi:type="uml:Transition" xmi:id="_mPF3MI70Ee657-9J7Tdz5g" name="T0IF == 1 (5ms)" source="_RYogUI7hEe657-9J7Tdz5g" target="_bn7rQI70Ee657-9J7Tdz5g"/>
-            <transition xmi:type="uml:Transition" xmi:id="_t0MVcI72Ee657-9J7Tdz5g" name="read_co2_humidity_temperature_luminosity()" source="_bn7rQI70Ee657-9J7Tdz5g" target="_Rd_KUI71Ee657-9J7Tdz5g"/>
-            <transition xmi:type="uml:Transition" xmi:id="_ctvVYI73Ee657-9J7Tdz5g" name="cont_timer == 1" source="_Rd_KUI71Ee657-9J7Tdz5g" target="_YO39YI73Ee657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_mPF3MI70Ee657-9J7Tdz5g" name="T0IF == 1 (5ms)" source="_ykQJ4I-gEe6-J-sEZVCGSw" target="_bn7rQI70Ee657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_t0MVcI72Ee657-9J7Tdz5g" name="read_co2_humidity_temperature_luminosity()" source="_IbNhAI-fEe6-J-sEZVCGSw" target="_Rd_KUI71Ee657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_ctvVYI73Ee657-9J7Tdz5g" name="count_timer == 1" source="_z2-S0I-cEe6-J-sEZVCGSw" target="_YO39YI73Ee657-9J7Tdz5g"/>
             <transition xmi:type="uml:Transition" xmi:id="_vZPyQI73Ee657-9J7Tdz5g" name="cont_timer == 0" source="_YO39YI73Ee657-9J7Tdz5g" target="_sWWB8I73Ee657-9J7Tdz5g"/>
-            <transition xmi:type="uml:Transition" xmi:id="_E2vOkI74Ee657-9J7Tdz5g" name="tx = co2 | humidity | temperature | luminosity | noise_value" source="_sWWB8I73Ee657-9J7Tdz5g" target="__iftwI73Ee657-9J7Tdz5g"/>
-            <transition xmi:type="uml:Transition" xmi:id="_ifGakI74Ee657-9J7Tdz5g" name="tx = co2 | humidity  | temperature | luminosity" source="_Rd_KUI71Ee657-9J7Tdz5g" target="__iftwI73Ee657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_E2vOkI74Ee657-9J7Tdz5g" name="tx = co2 | humidity | temperature | luminosity | noise_value" source="_sWWB8I73Ee657-9J7Tdz5g" target="_xcsMQI-dEe6-J-sEZVCGSw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_ifGakI74Ee657-9J7Tdz5g" name="tx = co2 | humidity  | temperature | luminosity" source="_xKqysI-eEe6-J-sEZVCGSw" target="_xcsMQI-dEe6-J-sEZVCGSw"/>
             <transition xmi:type="uml:Transition" xmi:id="_JAHpUI75Ee657-9J7Tdz5g" source="__iftwI73Ee657-9J7Tdz5g" target="_RYogUI7hEe657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_Wsk_wI-dEe6-J-sEZVCGSw" source="_Rd_KUI71Ee657-9J7Tdz5g" target="_z2-S0I-cEe6-J-sEZVCGSw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_rC8b8I-dEe6-J-sEZVCGSw" name="count_timer==0" source="_z2-S0I-cEe6-J-sEZVCGSw" target="_bHqrAI-dEe6-J-sEZVCGSw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_3uMmkI-dEe6-J-sEZVCGSw" name="monitor_sensors" source="_xcsMQI-dEe6-J-sEZVCGSw" target="__iftwI73Ee657-9J7Tdz5g"/>
+            <transition xmi:type="uml:Transition" xmi:id="_-wOpcI-eEe6-J-sEZVCGSw" name="counter_timer ++" source="_bHqrAI-dEe6-J-sEZVCGSw" target="_xKqysI-eEe6-J-sEZVCGSw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_RK84UI-fEe6-J-sEZVCGSw" name="T0IF= 0" source="_bn7rQI70Ee657-9J7Tdz5g" target="_IbNhAI-fEe6-J-sEZVCGSw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_4_w0wI-gEe6-J-sEZVCGSw" name="catch_interrupt" source="_RYogUI7hEe657-9J7Tdz5g" target="_uf7_4I-gEe6-J-sEZVCGSw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_9u3oMI-gEe6-J-sEZVCGSw" source="_uf7_4I-gEe6-J-sEZVCGSw" target="_ykQJ4I-gEe6-J-sEZVCGSw"/>
             <subvertex xmi:type="uml:Pseudostate" xmi:id="_EKkjkI7hEe657-9J7Tdz5g" name="initial_state"/>
             <subvertex xmi:type="uml:State" xmi:id="_RYogUI7hEe657-9J7Tdz5g" name="waiting_interruption"/>
             <subvertex xmi:type="uml:State" xmi:id="_hg8yQI7iEe657-9J7Tdz5g" name="interruption_uart_catched"/>
@@ -368,6 +380,13 @@
             <subvertex xmi:type="uml:State" xmi:id="_YO39YI73Ee657-9J7Tdz5g" name="starting_read_noise"/>
             <subvertex xmi:type="uml:State" xmi:id="_sWWB8I73Ee657-9J7Tdz5g" name="noise_read"/>
             <subvertex xmi:type="uml:State" xmi:id="__iftwI73Ee657-9J7Tdz5g" name="sensor_values_monitored"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_z2-S0I-cEe6-J-sEZVCGSw" name="count_timer?" kind="choice"/>
+            <subvertex xmi:type="uml:State" xmi:id="_bHqrAI-dEe6-J-sEZVCGSw" name="co2_humidity_temperature_luminosity_before_sended"/>
+            <subvertex xmi:type="uml:State" xmi:id="_xcsMQI-dEe6-J-sEZVCGSw" name="sensors_info_sended"/>
+            <subvertex xmi:type="uml:State" xmi:id="_xKqysI-eEe6-J-sEZVCGSw" name="counter_timer_incremented"/>
+            <subvertex xmi:type="uml:State" xmi:id="_IbNhAI-fEe6-J-sEZVCGSw" name="interruption_flag_turned_off"/>
+            <subvertex xmi:type="uml:State" xmi:id="_uf7_4I-gEe6-J-sEZVCGSw" name="interruption_catched"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_ykQJ4I-gEe6-J-sEZVCGSw" name="interruption_rutine?" kind="choice"/>
           </region>
         </packagedElement>
         <packagedElement xmi:type="uml:StateMachine" xmi:id="_SQ4NkI76Ee6jjfrMhyPAPQ" name="StateMachine2">
@@ -433,6 +452,11 @@
             <subvertex xmi:type="uml:Pseudostate" xmi:id="_Dzb1II8REe65AtJv8ZogmQ" name="comp_sleeping?" kind="choice"/>
             <subvertex xmi:type="uml:State" xmi:id="_I0IH0I8REe65AtJv8ZogmQ" name="lamp_waked_up"/>
             <subvertex xmi:type="uml:FinalState" xmi:id="_mNeAYI8REe65AtJv8ZogmQ" name="final_state"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_nQbpEI-cEe6-J-sEZVCGSw" name="StateMachine6">
+          <region xmi:type="uml:Region" xmi:id="_q-nLAI-cEe6-J-sEZVCGSw" name="Region1">
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_iUQYEI-eEe6-J-sEZVCGSw" name="initial_state"/>
           </region>
         </packagedElement>
       </packagedElement>
