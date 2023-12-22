@@ -1,0 +1,1062 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F886 ]
+[d frameptr 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"193 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"513
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"587
+[v _efgtoa efgtoa `(v  1 s 1 efgtoa ]
+"942
+[v _stoa stoa `(v  1 s 1 stoa ]
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\labs.c
+[v _labs labs `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.5v  1 e 1 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.5uc  1 e 1 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"42 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"49
+[v _config_sma config_sma `(v  1 e 1 0 ]
+"60
+[v _interrupt_rutine interrupt_rutine `II(v  1 e 1 0 ]
+"4 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/actuators/leds.c
+[v _change_brightness_lamp change_brightness_lamp `(v  1 e 1 0 ]
+"8
+[v _change_color_lamp change_color_lamp `(v  1 e 1 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/adc/adc.c
+[v _config_adc_channel config_adc_channel `(v  1 e 1 0 ]
+"12
+[v _read_adc_channel read_adc_channel `(us  1 e 2 0 ]
+"9 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/I2C/i2c-v2.c
+[v _i2c_config i2c_config `(v  1 e 1 0 ]
+"16
+[v _wait_MSSP wait_MSSP `(v  1 e 1 0 ]
+[v i1_wait_MSSP wait_MSSP `(v  1 e 1 0 ]
+"24
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+[v i1_i2c_start i2c_start `(v  1 e 1 0 ]
+"31
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+[v i1_i2c_stop i2c_stop `(v  1 e 1 0 ]
+"45
+[v _i2c_write i2c_write `(uc  1 e 1 0 ]
+[v i1_i2c_write i2c_write `(uc  1 e 1 0 ]
+"55
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"8 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/SPI/spi-master-v1.c
+[v _spi_write_read spi_write_read `(uc  1 e 1 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/UART/uart.c
+[v _config_uart config_uart `(v  1 e 1 0 ]
+"29
+[v _send_uint16t_to_uart send_uint16t_to_uart `(v  1 e 1 0 ]
+"34
+[v _send_float_to_uart send_float_to_uart `(v  1 e 1 0 ]
+"40
+[v _receive_uart receive_uart `(uc  1 e 1 0 ]
+"46
+[v _putch putch `(v  1 e 1 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/pwm/pwm.c
+[v _config_CCP1 config_CCP1 `(v  1 e 1 0 ]
+"11
+[v _config_pwm config_pwm `(v  1 e 1 0 ]
+"18
+[v _send_PWM_sign send_PWM_sign `(v  1 e 1 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/co2.c
+[v _read_co2_environment read_co2_environment `(us  1 e 2 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/humidity.c
+[v _read_humidity_channel read_humidity_channel `(f  1 e 4 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/luminosity.c
+[v _config_luminosity config_luminosity `(v  1 e 1 0 ]
+"29
+[v _read_luminosity read_luminosity `(f  1 e 4 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/noise.c
+[v _read_noise_channel read_noise_channel `(us  1 e 2 0 ]
+"9
+[v _take_best_noise take_best_noise `(v  1 e 1 0 ]
+"15
+[v _reset_best_noise reset_best_noise `(v  1 e 1 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/temperature.c
+[v _read_temperature read_temperature `(f  1 e 4 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/timers/tmr0.c
+[v _config_tmr0 config_tmr0 `(v  1 e 1 0 ]
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/timers/tmr2.c
+[v _config_tmr2 config_tmr2 `(v  1 e 1 0 ]
+"8 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X/src/sensors/noise.h
+[v _best_noise best_noise `us  1 e 2 0 ]
+"59 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f886.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+[s S337 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183
+[u S346 . 1 `S337 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES346  1 e 1 @5 ]
+[s S316 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"307
+[u S325 . 1 `S316 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES325  1 e 1 @7 ]
+[s S624 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"403
+[s S633 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S638 . 1 `S624 1 . 1 0 `S633 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES638  1 e 1 @11 ]
+[s S244 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"474
+[u S252 . 1 `S244 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES252  1 e 1 @12 ]
+[s S716 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"714
+[s S720 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S728 . 1 `S716 1 . 1 0 `S720 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES728  1 e 1 @18 ]
+"764
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+[s S378 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"791
+[s S384 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S389 . 1 `S378 1 . 1 0 `S384 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES389  1 e 1 @20 ]
+"848
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+[s S461 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"889
+[s S465 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[s S474 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+[u S478 . 1 `S461 1 . 1 0 `S465 1 . 1 0 `S474 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES478  1 e 1 @23 ]
+[s S176 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"989
+[s S185 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S189 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S192 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S195 . 1 `S176 1 . 1 0 `S185 1 . 1 0 `S189 1 . 1 0 `S192 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES195  1 e 1 @24 ]
+"1054
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1061
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1159
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S33 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1197
+[s S38 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S47 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S50 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S53 . 1 `S33 1 . 1 0 `S38 1 . 1 0 `S47 1 . 1 0 `S50 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES53  1 e 1 @31 ]
+[s S656 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1287
+[s S663 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S667 . 1 `S656 1 . 1 0 `S663 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES667  1 e 1 @129 ]
+"1461
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S220 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1560
+[u S228 . 1 `S220 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES228  1 e 1 @140 ]
+[s S415 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1838
+[u S424 . 1 `S415 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES424  1 e 1 @145 ]
+"1883
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+[s S116 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2424
+[s S125 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S129 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S132 . 1 `S116 1 . 1 0 `S125 1 . 1 0 `S129 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES132  1 e 1 @152 ]
+"2484
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2546
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @154 ]
+"2812
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+[s S79 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2833
+[u S85 . 1 `S79 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES85  1 e 1 @159 ]
+[s S153 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3194
+[u S162 . 1 `S153 1 . 1 0 ]
+[v _BAUDCTLbits BAUDCTLbits `VES162  1 e 1 @391 ]
+"4297
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"153 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"31 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\main.c
+[v _humidity humidity `f  1 e 4 0 ]
+[v _brightness brightness `f  1 e 4 0 ]
+[v _temperature temperature `f  1 e 4 0 ]
+"33
+[v _co2 co2 `us  1 e 2 0 ]
+[v _noise noise `us  1 e 2 0 ]
+"35
+[v _timer_counter timer_counter `i  1 e 2 0 ]
+[v _i i `i  1 e 2 0 ]
+[v _j j `i  1 e 2 0 ]
+"37
+[v _serial serial `uc  1 e 1 0 ]
+"38
+[v _lamp lamp `[4]uc  1 e 4 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+} 0
+"49
+[v _config_sma config_sma `(v  1 e 1 0 ]
+{
+"57
+} 0
+"9 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/I2C/i2c-v2.c
+[v _i2c_config i2c_config `(v  1 e 1 0 ]
+{
+"14
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/UART/uart.c
+[v _config_uart config_uart `(v  1 e 1 0 ]
+{
+"27
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/timers/tmr0.c
+[v _config_tmr0 config_tmr0 `(v  1 e 1 0 ]
+{
+"12
+} 0
+"11 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/pwm/pwm.c
+[v _config_pwm config_pwm `(v  1 e 1 0 ]
+{
+"16
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/timers/tmr2.c
+[v _config_tmr2 config_tmr2 `(v  1 e 1 0 ]
+{
+"16
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/pwm/pwm.c
+[v _config_CCP1 config_CCP1 `(v  1 e 1 0 ]
+{
+"9
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/luminosity.c
+[v _config_luminosity config_luminosity `(v  1 e 1 0 ]
+{
+"27
+} 0
+"45 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/I2C/i2c-v2.c
+[v _i2c_write i2c_write `(uc  1 e 1 0 ]
+{
+[v i2c_write@I2C_data I2C_data `uc  1 a 1 wreg ]
+[v i2c_write@I2C_data I2C_data `uc  1 a 1 wreg ]
+"47
+[v i2c_write@I2C_data I2C_data `uc  1 a 1 0 ]
+"50
+} 0
+"31
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"36
+} 0
+"24
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"29
+} 0
+"16
+[v _wait_MSSP wait_MSSP `(v  1 e 1 0 ]
+{
+"22
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/adc/adc.c
+[v _config_adc_channel config_adc_channel `(v  1 e 1 0 ]
+{
+"10
+} 0
+"60 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\main.c
+[v _interrupt_rutine interrupt_rutine `II(v  1 e 1 0 ]
+{
+"108
+} 0
+"9 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/noise.c
+[v _take_best_noise take_best_noise `(v  1 e 1 0 ]
+{
+[v take_best_noise@noise noise `us  1 p 2 0 ]
+"13
+} 0
+"29 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/UART/uart.c
+[v _send_uint16t_to_uart send_uint16t_to_uart `(v  1 e 1 0 ]
+{
+[v send_uint16t_to_uart@name name `*.24uc  1 a 1 wreg ]
+[v send_uint16t_to_uart@name name `*.24uc  1 a 1 wreg ]
+[v send_uint16t_to_uart@value value `us  1 p 2 67 ]
+"31
+[v send_uint16t_to_uart@name name `*.24uc  1 a 1 79 ]
+"32
+} 0
+"34
+[v _send_float_to_uart send_float_to_uart `(v  1 e 1 0 ]
+{
+[v send_float_to_uart@name name `*.24uc  1 a 1 wreg ]
+[v send_float_to_uart@name name `*.24uc  1 a 1 wreg ]
+[v send_float_to_uart@value value `f  1 p 4 67 ]
+"36
+[v send_float_to_uart@name name `*.24uc  1 a 1 79 ]
+"38
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[v printf@fmt fmt `*.24DCuc  1 a 1 wreg ]
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 66 ]
+"5
+[v printf@fmt fmt `*.24DCuc  1 a 1 wreg ]
+"9
+[v printf@fmt fmt `*.24DCuc  1 a 1 65 ]
+"13
+} 0
+"1817 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1315 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1315  1 a 1 wreg ]
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 58 ]
+"1817
+[v vfprintf@fp fp `*.1S1315  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 55 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 56 ]
+"1822
+"1817
+[v vfprintf@fp fp `*.1S1315  1 a 1 57 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S1315 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1315  1 a 1 wreg ]
+[u S1370 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S1370  1 a 4 48 ]
+"1179
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 54 ]
+[v vfpfcnvrt@c c `uc  1 a 1 52 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 47 ]
+"1177
+[v vfpfcnvrt@fp fp `*.1S1315  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.24uc  1 p 1 77 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 78 ]
+"1201
+"1177
+[v vfpfcnvrt@fp fp `*.1S1315  1 a 1 53 ]
+"1814
+} 0
+"942
+[v _stoa stoa `(v  1 s 1 stoa ]
+{
+[s S1315 _IO_FILE 0 ]
+[v stoa@fp fp `*.1S1315  1 a 1 wreg ]
+"945
+[v stoa@l l `i  1 a 2 8 ]
+"944
+[v stoa@cp cp `*.26uc  1 a 2 6 ]
+"945
+[v stoa@p p `i  1 a 2 3 ]
+"942
+[v stoa@fp fp `*.1S1315  1 a 1 wreg ]
+[v stoa@s s `*.26uc  1 p 2 9 ]
+"951
+"942
+[v stoa@fp fp `*.1S1315  1 a 1 5 ]
+"997
+} 0
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 a 1 wreg ]
+"1164
+[v read_prec_or_width@c c `uc  1 a 1 8 ]
+"1159
+[v read_prec_or_width@n n `i  1 a 2 9 ]
+"1158
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 a 1 wreg ]
+[v read_prec_or_width@ap ap `*.4[1]*.4v  1 p 1 6 ]
+[v read_prec_or_width@fmt fmt `*.4*.24DCuc  1 a 1 11 ]
+"1171
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"587 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _efgtoa efgtoa `(v  1 s 1 efgtoa ]
+{
+[s S1315 _IO_FILE 0 ]
+[v efgtoa@fp fp `*.1S1315  1 a 1 wreg ]
+[u S1333 flui 4 `d 1 f 4 0 `l 1 u 4 0 ]
+"592
+[v efgtoa@u u `S1333  1 a 4 41 ]
+[v efgtoa@g g `S1333  1 a 4 37 ]
+"591
+[v efgtoa@l l `d  1 a 4 30 ]
+[v efgtoa@h h `d  1 a 4 26 ]
+"592
+[v efgtoa@ou ou `S1333  1 a 4 20 ]
+"590
+[v efgtoa@n n `i  1 a 2 35 ]
+[v efgtoa@i i `i  1 a 2 24 ]
+[v efgtoa@w w `i  1 a 2 18 ]
+[v efgtoa@e e `i  1 a 2 16 ]
+[v efgtoa@m m `i  1 a 2 13 ]
+[v efgtoa@d d `i  1 a 2 11 ]
+[v efgtoa@t t `i  1 a 2 4 ]
+[v efgtoa@p p `i  1 a 2 2 ]
+[v efgtoa@ne ne `i  1 a 2 0 ]
+"589
+[v efgtoa@sign sign `uc  1 a 1 34 ]
+[v efgtoa@nmode nmode `uc  1 a 1 10 ]
+[v efgtoa@mode mode `uc  1 a 1 9 ]
+[v efgtoa@pp pp `uc  1 a 1 8 ]
+"587
+[v efgtoa@fp fp `*.1S1315  1 a 1 wreg ]
+[v efgtoa@f f `d  1 p 4 68 ]
+[v efgtoa@c c `uc  1 p 1 72 ]
+"595
+"587
+[v efgtoa@fp fp `*.1S1315  1 a 1 15 ]
+"868
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.5uc  1 e 1 0 ]
+{
+[v strcpy@dest dest `*.5uc  1 a 1 wreg ]
+"5
+[v strcpy@d d `*.5uc  1 a 1 1 ]
+"3
+[v strcpy@dest dest `*.5uc  1 a 1 wreg ]
+[v strcpy@src src `*.24DCuc  1 p 1 0 ]
+"5
+[v strcpy@dest dest `*.5uc  1 a 1 2 ]
+"8
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.5v  1 e 1 0 ]
+{
+[v memcpy@d1 d1 `*.5v  1 a 1 wreg ]
+"8
+[v memcpy@s s `*.5DCuc  1 a 1 6 ]
+"7
+[v memcpy@d d `*.5uc  1 a 1 5 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 3 ]
+"4
+[v memcpy@d1 d1 `*.5v  1 a 1 wreg ]
+[v memcpy@s1 s1 `*.5DCv  1 p 1 0 ]
+[v memcpy@n n `ui  1 p 2 1 ]
+"11
+[v memcpy@d1 d1 `*.5v  1 a 1 4 ]
+"18
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\labs.c
+[v _labs labs `(l  1 e 4 0 ]
+{
+[v labs@a a `l  1 p 4 0 ]
+"4
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S1463 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S1463  1 a 4 64 ]
+"7
+[v floorf@m m `ul  1 a 4 58 ]
+"6
+[v floorf@e e `i  1 a 2 62 ]
+"3
+[v floorf@x x `f  1 p 4 48 ]
+"4
+[v floorf@F521 F521 `S1463  1 s 4 F521 ]
+"27
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S1463 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S1463  1 a 4 2 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 0 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 0 ]
+"5
+[v ___fpclassifyf@F465 F465 `S1463  1 s 4 F465 ]
+"11
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 32 ]
+[v ___flsub@b b `d  1 p 4 36 ]
+"250
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 32 ]
+[v ___flge@ff2 ff2 `d  1 p 4 36 ]
+"19
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"513 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+[s S1315 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S1315  1 a 1 wreg ]
+"516
+[v dtoa@i i `i  1 a 2 20 ]
+"518
+[v dtoa@p p `i  1 a 2 16 ]
+"516
+[v dtoa@w w `i  1 a 2 14 ]
+"515
+[v dtoa@s s `uc  1 a 1 19 ]
+"513
+[v dtoa@fp fp `*.1S1315  1 a 1 wreg ]
+[v dtoa@d d `i  1 p 2 10 ]
+"524
+"513
+[v dtoa@fp fp `*.1S1315  1 a 1 18 ]
+"583
+} 0
+"193
+[v _pad pad `(v  1 s 1 pad ]
+{
+[s S1315 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1315  1 a 1 wreg ]
+"195
+[v pad@i i `i  1 a 2 7 ]
+"193
+[v pad@fp fp `*.1S1315  1 a 1 wreg ]
+[v pad@buf buf `*.5uc  1 p 1 4 ]
+[v pad@p p `i  1 p 2 5 ]
+"205
+"193
+[v pad@fp fp `*.1S1315  1 a 1 9 ]
+"226
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 1 ]
+"10
+[v fputs@c c `uc  1 a 1 0 ]
+"8
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+[u S1293 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1296 _IO_FILE 11 `S1293 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.1S1296  1 p 1 9 ]
+"13
+[v fputs@s s `*.5DCuc  1 a 1 3 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 1 ]
+[u S1293 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1296 _IO_FILE 11 `S1293 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.1S1296  1 p 1 3 ]
+"24
+} 0
+"46 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/UART/uart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 0 ]
+"51
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 6 ]
+"4
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"18 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/pwm/pwm.c
+[v _send_PWM_sign send_PWM_sign `(v  1 e 1 0 ]
+{
+[v send_PWM_sign@percent percent `f  1 p 4 48 ]
+"21
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 37 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 36 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 32 ]
+"70
+} 0
+"15 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/noise.c
+[v _reset_best_noise reset_best_noise `(v  1 e 1 0 ]
+{
+"18
+} 0
+"40 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/UART/uart.c
+[v _receive_uart receive_uart `(uc  1 e 1 0 ]
+{
+"44
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/temperature.c
+[v _read_temperature read_temperature `(f  1 e 4 0 ]
+{
+"6
+[v read_temperature@adc_value adc_value `us  1 a 2 52 ]
+"8
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/noise.c
+[v _read_noise_channel read_noise_channel `(us  1 e 2 0 ]
+{
+"7
+} 0
+"29 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/luminosity.c
+[v _read_luminosity read_luminosity `(f  1 e 4 0 ]
+{
+"31
+[v read_luminosity@lum lum `us  1 a 2 36 ]
+"40
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1142 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1147 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1150 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1142 1 fAsBytes 4 0 `S1147 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1150  1 a 4 26 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 20 ]
+[s S1219 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1222 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1219 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1222  1 a 2 30 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 25 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 24 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 19 ]
+"8
+[v ___flmul@b b `d  1 p 4 6 ]
+[v ___flmul@a a `d  1 p 4 10 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/humidity.c
+[v _read_humidity_channel read_humidity_channel `(f  1 e 4 0 ]
+{
+"6
+[v read_humidity_channel@adc_value adc_value `us  1 a 2 52 ]
+"8
+} 0
+"12 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/adc/adc.c
+[v _read_adc_channel read_adc_channel `(us  1 e 2 0 ]
+{
+"14
+[v read_adc_channel@adc_value adc_value `us  1 a 2 8 ]
+"19
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 42 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 35 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 40 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 47 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 46 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 39 ]
+"8
+[v ___fldiv@a a `d  1 p 4 22 ]
+[v ___fldiv@b b `d  1 p 4 26 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 11 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 10 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 9 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 8 ]
+"10
+[v ___fladd@b b `d  1 p 4 6 ]
+[v ___fladd@a a `d  1 p 4 10 ]
+"237
+} 0
+"3 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/sensors/co2.c
+[v _read_co2_environment read_co2_environment `(us  1 e 2 0 ]
+{
+"5
+[v read_co2_environment@co2_value co2_value `us  1 a 2 8 ]
+"18
+} 0
+"45 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/I2C/i2c-v2.c
+[v i1_i2c_write i2c_write `(uc  1 e 1 0 ]
+{
+[v i1i2c_write@I2C_data I2C_data `uc  1 a 1 wreg ]
+[v i1i2c_write@I2C_data I2C_data `uc  1 a 1 wreg ]
+"47
+[v i1i2c_write@I2C_data I2C_data `uc  1 a 1 0 ]
+"50
+} 0
+"31
+[v i1_i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"36
+} 0
+"24
+[v i1_i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"29
+} 0
+"55
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+[v i2c_read@master_ack master_ack `uc  1 a 1 wreg ]
+"57
+[v i2c_read@I2C_data I2C_data `uc  1 a 1 1 ]
+"55
+[v i2c_read@master_ack master_ack `uc  1 a 1 wreg ]
+"59
+[v i2c_read@master_ack master_ack `uc  1 a 1 0 ]
+"72
+} 0
+"16
+[v i1_wait_MSSP wait_MSSP `(v  1 e 1 0 ]
+{
+"22
+} 0
+"8 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/actuators/leds.c
+[v _change_color_lamp change_color_lamp `(v  1 e 1 0 ]
+{
+[v change_color_lamp@R R `uc  1 a 1 wreg ]
+[v change_color_lamp@R R `uc  1 a 1 wreg ]
+[v change_color_lamp@G G `uc  1 p 1 4 ]
+[v change_color_lamp@B B `uc  1 p 1 5 ]
+"10
+[v change_color_lamp@R R `uc  1 a 1 6 ]
+"14
+} 0
+"4
+[v _change_brightness_lamp change_brightness_lamp `(v  1 e 1 0 ]
+{
+[v change_brightness_lamp@brightness brightness `uc  1 a 1 wreg ]
+[v change_brightness_lamp@brightness brightness `uc  1 a 1 wreg ]
+"6
+[v change_brightness_lamp@brightness brightness `uc  1 a 1 4 ]
+"7
+} 0
+"8 C:\Users\34657\Desktop\uni\4oAnio\1erSemestre\practica\SE\proyecto\smart_lamp\smart_lamp.X\src/protocols/SPI/spi-master-v1.c
+[v _spi_write_read spi_write_read `(uc  1 e 1 0 ]
+{
+[v spi_write_read@one_byte one_byte `uc  1 a 1 wreg ]
+"10
+[v spi_write_read@x x `uc  1 a 1 3 ]
+[v spi_write_read@answer answer `uc  1 a 1 2 ]
+"8
+[v spi_write_read@one_byte one_byte `uc  1 a 1 wreg ]
+"12
+[v spi_write_read@one_byte one_byte `uc  1 a 1 1 ]
+"28
+} 0

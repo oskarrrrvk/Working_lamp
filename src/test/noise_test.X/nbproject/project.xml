@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>noise_test</name>
+            <creation-uuid>f4194c6e-161d-487d-9f22-8bb2e202cb9e</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>src/adc</sourceRootElem>
+                <sourceRootElem>src/protcols</sourceRootElem>
+                <sourceRootElem>src/sensor</sourceRootElem>
+                <sourceRootElem>src/timers</sourceRootElem>
+                <sourceRootElem>src/protocols</sourceRootElem>
+                <sourceRootElem>src/sensors</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

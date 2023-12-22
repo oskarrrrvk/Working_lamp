@@ -1,0 +1,2170 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcXecfmba/driver_tmp_17.o
+reset_vec CODE 0 0 0 3 2 1
+end_init CODE 0 12 12 4 2 1
+config CONFIG 4 2007 2007 2 2 1
+$dist/default/production/smart_lamp.X.production.o
+cinit CODE 0 16 16 1A 2 1
+text1 CODE 0 1908 1908 1F 2 1
+text2 CODE 0 F2 F2 8 2 1
+text3 CODE 0 1927 1927 20 2 1
+text4 CODE 0 E2 E2 10 2 1
+text5 CODE 0 D4 D4 E 2 1
+text6 CODE 0 18BD 18BD 16 2 1
+text7 CODE 0 C5 C5 F 2 1
+text8 CODE 0 1D5E 1D5E 6B 2 1
+text9 CODE 0 B5 B5 10 2 1
+text10 CODE 0 AC AC 9 2 1
+text11 CODE 0 A3 A3 9 2 1
+text12 CODE 0 9B 9B 8 2 1
+text13 CODE 0 8C 8C F 2 1
+text14 CODE 0 1608 1608 1F8 2 1
+text15 CODE 0 7B 7B 11 2 1
+text16 CODE 0 18A7 18A7 16 2 1
+text17 CODE 0 18D3 18D3 1A 2 1
+text18 CODE 0 6B 6B 10 2 1
+text19 CODE 0 1A1F 1A1F 29 2 1
+text20 CODE 0 5CD 5CD 1F9 2 1
+text21 CODE 0 1ECE 1ECE 8E 2 1
+text22 CODE 0 1C46 1C46 58 2 1
+text23 CODE 0 19AD 19AD 25 2 1
+text24 CODE 0 1304 1304 131 2 1
+text25 CODE 0 18ED 18ED 1B 2 1
+text26 CODE 0 19D2 19D2 26 2 1
+text27 CODE 0 1892 1892 15 2 1
+text28 CODE 0 11F5 11F5 10F 2 1
+text29 CODE 0 1E41 1E41 8D 2 1
+text30 CODE 0 1989 1989 24 2 1
+text31 CODE 0 60 60 B 2 1
+text32 CODE 0 1F5C 1F5C A4 2 1
+text33 CODE 0 1B4C 1B4C 4E 2 1
+text34 CODE 0 111B 111B DA 2 1
+text35 CODE 0 7C6 7C6 3A 2 1
+text36 CODE 0 1A48 1A48 2A 2 1
+text37 CODE 0 1BF0 1BF0 56 2 1
+text38 CODE 0 56 56 A 2 1
+text39 CODE 0 45 45 11 2 1
+text40 CODE 0 1C9E 1C9E 59 2 1
+text41 CODE 0 1CF7 1CF7 67 2 1
+text42 CODE 0 1A72 1A72 2B 2 1
+text43 CODE 0 1DC9 1DC9 78 2 1
+text44 CODE 0 1000 1000 5 2 1
+text45 CODE 0 40 40 5 2 1
+text46 CODE 0 1B0D 1B0D 3F 2 1
+text47 CODE 0 30 30 10 2 1
+text48 CODE 0 1005 1005 5E 2 1
+text49 CODE 0 30 30 345 2 1
+text50 CODE 0 19F8 19F8 27 2 1
+text51 CODE 0 1B9A 1B9A 56 2 1
+text52 CODE 0 1968 1968 21 2 1
+text53 CODE 0 1063 1063 B8 2 1
+text54 CODE 0 1435 1435 1D3 2 1
+text55 CODE 0 375 375 258 2 1
+text56 CODE 0 1AD1 1AD1 3C 2 1
+text57 CODE 0 22 22 E 2 1
+text58 CODE 0 19 19 9 2 1
+text59 CODE 0 10 10 9 2 1
+text60 CODE 0 1947 1947 21 2 1
+text61 CODE 0 8 8 8 2 1
+text62 CODE 0 187E 187E 14 2 1
+text63 CODE 0 0 0 8 2 1
+text64 CODE 0 1A9D 1A9D 34 2 1
+maintext CODE 0 FA FA 9 2 1
+cstackCOMMON COMMON 1 70 70 E 1 1
+text24_split_1 CODE 0 801 801 7FF 2 1
+cstackBANK0 BANK0 1 20 20 50 1 1
+cstackBANK1 BANK1 1 A0 A0 4D 1 1
+cstackBANK3 BANK3 1 1B5 1B5 1 1 1
+intentry CODE 0 4 4 E 2 1
+bssBANK1 BANK1 1 ED ED 3 1 1
+bssBANK2 BANK2 1 110 110 50 1 1
+bssBANK3 BANK3 1 190 190 25 1 1
+strings STRING 0 1800 1800 76 2 1
+clrtext CODE 0 1876 1876 8 2 1
+config CONFIG 4 2007 2007 2 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 160-16F 1
+RAM 1B6-1EF 1
+BANK2 160-16F 1
+BANK3 1B6-1EF 1
+CONST 800-800 2
+ENTRY 800-800 2
+IDLOC 2000-2003 2
+CODE 800-800 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 800-800 2
+STRING 800-800 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production/smart_lamp.X.production.o
+16 cinit CODE >2726:/tmp/xcXecfmba/driver_tmp_1.s
+16 cinit CODE >2729:/tmp/xcXecfmba/driver_tmp_1.s
+16 cinit CODE >2806:/tmp/xcXecfmba/driver_tmp_1.s
+17 cinit CODE >2807:/tmp/xcXecfmba/driver_tmp_1.s
+18 cinit CODE >2808:/tmp/xcXecfmba/driver_tmp_1.s
+19 cinit CODE >2809:/tmp/xcXecfmba/driver_tmp_1.s
+1A cinit CODE >2810:/tmp/xcXecfmba/driver_tmp_1.s
+1B cinit CODE >2813:/tmp/xcXecfmba/driver_tmp_1.s
+1C cinit CODE >2814:/tmp/xcXecfmba/driver_tmp_1.s
+1D cinit CODE >2815:/tmp/xcXecfmba/driver_tmp_1.s
+1E cinit CODE >2816:/tmp/xcXecfmba/driver_tmp_1.s
+1F cinit CODE >2817:/tmp/xcXecfmba/driver_tmp_1.s
+24 cinit CODE >2820:/tmp/xcXecfmba/driver_tmp_1.s
+25 cinit CODE >2821:/tmp/xcXecfmba/driver_tmp_1.s
+26 cinit CODE >2822:/tmp/xcXecfmba/driver_tmp_1.s
+27 cinit CODE >2823:/tmp/xcXecfmba/driver_tmp_1.s
+2C cinit CODE >2829:/tmp/xcXecfmba/driver_tmp_1.s
+2C cinit CODE >2831:/tmp/xcXecfmba/driver_tmp_1.s
+2D cinit CODE >2832:/tmp/xcXecfmba/driver_tmp_1.s
+4 intentry CODE >60:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+801 text24_split_1 CODE >657:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+80B text24_split_1 CODE >658:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+80D text24_split_1 CODE >659:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+827 text24_split_1 CODE >661:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+831 text24_split_1 CODE >662:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+833 text24_split_1 CODE >662:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+837 text24_split_1 CODE >660:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+895 text24_split_1 CODE >660:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+89F text24_split_1 CODE >660:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+8A9 text24_split_1 CODE >660:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+8CE text24_split_1 CODE >660:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+90D text24_split_1 CODE >664:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+92E text24_split_1 CODE >664:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+938 text24_split_1 CODE >664:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+942 text24_split_1 CODE >664:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+967 text24_split_1 CODE >664:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+96D text24_split_1 CODE >665:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+977 text24_split_1 CODE >666:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+978 text24_split_1 CODE >669:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+9B7 text24_split_1 CODE >670:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+9B9 text24_split_1 CODE >670:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+9BD text24_split_1 CODE >671:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+9DC text24_split_1 CODE >671:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+9E6 text24_split_1 CODE >671:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+9F0 text24_split_1 CODE >671:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A15 text24_split_1 CODE >671:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A1C text24_split_1 CODE >668:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A55 text24_split_1 CODE >683:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A5B text24_split_1 CODE >685:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A5D text24_split_1 CODE >696:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A6A text24_split_1 CODE >711:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A6E text24_split_1 CODE >716:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A70 text24_split_1 CODE >716:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A74 text24_split_1 CODE >721:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A7A text24_split_1 CODE >722:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A7E text24_split_1 CODE >723:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A86 text24_split_1 CODE >724:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A88 text24_split_1 CODE >726:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A8E text24_split_1 CODE >727:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A90 text24_split_1 CODE >727:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A94 text24_split_1 CODE >733:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A96 text24_split_1 CODE >734:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+A9E text24_split_1 CODE >735:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+AA6 text24_split_1 CODE >736:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+AA7 text24_split_1 CODE >737:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+B03 text24_split_1 CODE >738:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+B2A text24_split_1 CODE >739:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+B9C text24_split_1 CODE >740:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+BDB text24_split_1 CODE >741:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+BDD text24_split_1 CODE >741:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+BE1 text24_split_1 CODE >736:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+BED text24_split_1 CODE >736:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+BF3 text24_split_1 CODE >736:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+BF7 text24_split_1 CODE >745:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+C36 text24_split_1 CODE >746:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+C6D text24_split_1 CODE >747:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+C77 text24_split_1 CODE >748:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+C78 text24_split_1 CODE >750:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+C99 text24_split_1 CODE >751:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+CA1 text24_split_1 CODE >756:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+CEE text24_split_1 CODE >758:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D3C text24_split_1 CODE >759:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D40 text24_split_1 CODE >759:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D44 text24_split_1 CODE >760:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D83 text24_split_1 CODE >762:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D89 text24_split_1 CODE >764:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D8B text24_split_1 CODE >764:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D8F text24_split_1 CODE >767:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D8F text24_split_1 CODE >770:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D99 text24_split_1 CODE >774:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D9D text24_split_1 CODE >776:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+D9E text24_split_1 CODE >777:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+DA0 text24_split_1 CODE >778:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+DA2 text24_split_1 CODE >779:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+DA3 text24_split_1 CODE >780:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+DFF text24_split_1 CODE >781:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E21 text24_split_1 CODE >781:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E25 text24_split_1 CODE >781:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E59 text24_split_1 CODE >793:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E62 text24_split_1 CODE >794:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E6A text24_split_1 CODE >794:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E6E text24_split_1 CODE >795:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E70 text24_split_1 CODE >795:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E74 text24_split_1 CODE >796:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E77 text24_split_1 CODE >799:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E7F text24_split_1 CODE >799:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E83 text24_split_1 CODE >800:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E85 text24_split_1 CODE >800:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E89 text24_split_1 CODE >801:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E8B text24_split_1 CODE >801:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E8F text24_split_1 CODE >798:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E95 text24_split_1 CODE >803:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+E9E text24_split_1 CODE >803:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+EA2 text24_split_1 CODE >804:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+EA4 text24_split_1 CODE >804:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+EA8 text24_split_1 CODE >806:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F1A text24_split_1 CODE >807:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F59 text24_split_1 CODE >808:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F5B text24_split_1 CODE >808:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F5F text24_split_1 CODE >809:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F61 text24_split_1 CODE >809:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F65 text24_split_1 CODE >779:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F71 text24_split_1 CODE >779:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F77 text24_split_1 CODE >779:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F82 text24_split_1 CODE >779:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F86 text24_split_1 CODE >779:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F8A text24_split_1 CODE >816:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F90 text24_split_1 CODE >817:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+F95 text24_split_1 CODE >848:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FB0 text24_split_1 CODE >849:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FB6 text24_split_1 CODE >849:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FBA text24_split_1 CODE >850:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FCF text24_split_1 CODE >861:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FD4 text24_split_1 CODE >862:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FD6 text24_split_1 CODE >862:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FE0 text24_split_1 CODE >864:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FE3 text24_split_1 CODE >864:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FE6 text24_split_1 CODE >867:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+FFF text24_split_1 CODE >868:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A9D text64 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1A9E text64 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1A9F text64 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AA1 text64 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AA7 text64 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AAA text64 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AB6 text64 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AB7 text64 CODE >20:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1ABE text64 CODE >21:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1ABF text64 CODE >23:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AC1 text64 CODE >23:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AC5 text64 CODE >24:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AC9 text64 CODE >25:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+1AD0 text64 CODE >28:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/SPI/spi-master-v1.c
+0 text63 CODE >4:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+1 text63 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+7 text63 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+187E text62 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+187F text62 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+1885 text62 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+188B text62 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+1891 text62 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/actuators/leds.c
+8 text61 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+8 text61 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+E text61 CODE >20:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+F text61 CODE >22:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1947 text60 CODE >55:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1948 text60 CODE >59:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+194B text60 CODE >60:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1950 text60 CODE >62:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1954 text60 CODE >64:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1959 text60 CODE >65:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+195D text60 CODE >66:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+195D text60 CODE >67:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1960 text60 CODE >69:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1961 text60 CODE >70:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1966 text60 CODE >71:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1967 text60 CODE >72:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+10 text59 CODE >24:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+10 text59 CODE >26:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+13 text59 CODE >27:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+18 text59 CODE >29:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+19 text58 CODE >31:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+19 text58 CODE >33:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1C text58 CODE >34:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+21 text58 CODE >36:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+22 text57 CODE >45:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+23 text57 CODE >47:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+27 text57 CODE >48:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+2C text57 CODE >49:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+2F text57 CODE >50:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1AD1 text56 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1AD1 text56 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1AD1 text56 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1AD6 text56 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1ADC text56 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1AE1 text56 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1AE6 text56 CODE >13:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1AF2 text56 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1B03 text56 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1B08 text56 CODE >17:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+1B0C text56 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/co2.c
+375 text55 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+375 text55 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+37A text55 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+37E text55 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+382 text55 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+383 text55 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+388 text55 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+38D text55 CODE >32:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+395 text55 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+396 text55 CODE >37:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+397 text55 CODE >38:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+398 text55 CODE >41:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3A0 text55 CODE >44:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3A3 text55 CODE >46:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3A5 text55 CODE >46:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3A9 text55 CODE >47:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3AA text55 CODE >49:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3AE text55 CODE >50:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3B2 text55 CODE >51:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3B3 text55 CODE >55:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3B8 text55 CODE >57:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3BD text55 CODE >59:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3C5 text55 CODE >62:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3C6 text55 CODE >64:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3C7 text55 CODE >65:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3C8 text55 CODE >68:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3D0 text55 CODE >69:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3D0 text55 CODE >75:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3D2 text55 CODE >75:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3D6 text55 CODE >77:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3DA text55 CODE >78:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3DE text55 CODE >81:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3E0 text55 CODE >82:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3E2 text55 CODE >83:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3E4 text55 CODE >84:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3E6 text55 CODE >85:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3E8 text55 CODE >86:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3EA text55 CODE >87:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3EC text55 CODE >88:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3EE text55 CODE >89:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3F0 text55 CODE >90:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3F2 text55 CODE >91:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3F4 text55 CODE >92:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3F6 text55 CODE >93:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3F8 text55 CODE >94:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3FA text55 CODE >95:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3FC text55 CODE >98:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+3FD text55 CODE >100:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+405 text55 CODE >100:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+40C text55 CODE >100:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+410 text55 CODE >100:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+414 text55 CODE >101:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+41A text55 CODE >101:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+421 text55 CODE >102:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+429 text55 CODE >103:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+42B text55 CODE >104:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+42C text55 CODE >106:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+42C text55 CODE >109:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+430 text55 CODE >110:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+432 text55 CODE >110:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+436 text55 CODE >111:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+437 text55 CODE >113:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+439 text55 CODE >115:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+43D text55 CODE >116:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+43E text55 CODE >118:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+447 text55 CODE >119:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+44B text55 CODE >106:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+44F text55 CODE >106:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+453 text55 CODE >121:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+453 text55 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+457 text55 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+45C text55 CODE >128:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+465 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+468 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+469 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+46B text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+46F text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+470 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+472 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+476 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+477 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+479 text55 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+47C text55 CODE >134:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+480 text55 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+484 text55 CODE >136:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+486 text55 CODE >136:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+48A text55 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+48B text55 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+48D text55 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+491 text55 CODE >142:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+492 text55 CODE >144:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+49B text55 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4A0 text55 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4A6 text55 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4AA text55 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4AE text55 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4B2 text55 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4B6 text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4C9 text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4CF text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4D5 text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4DD text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4E3 text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4E9 text55 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4F4 text55 CODE >155:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4F8 text55 CODE >156:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4FA text55 CODE >157:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+4FF text55 CODE >158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+502 text55 CODE >158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+506 text55 CODE >158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+50A text55 CODE >158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+50E text55 CODE >162:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+511 text55 CODE >162:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+515 text55 CODE >162:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+519 text55 CODE >162:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+51C text55 CODE >163:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+51C text55 CODE >166:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+520 text55 CODE >166:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+529 text55 CODE >167:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+532 text55 CODE >172:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+534 text55 CODE >172:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+53B text55 CODE >173:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+53F text55 CODE >174:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+540 text55 CODE >175:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+540 text55 CODE >176:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+544 text55 CODE >177:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+546 text55 CODE >178:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+547 text55 CODE >180:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+549 text55 CODE >182:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+54E text55 CODE >183:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+550 text55 CODE >171:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+554 text55 CODE >192:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+555 text55 CODE >193:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+559 text55 CODE >194:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+55F text55 CODE >195:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+561 text55 CODE >196:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+562 text55 CODE >197:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+562 text55 CODE >198:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+567 text55 CODE >203:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+56C text55 CODE >204:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+56F text55 CODE >204:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+573 text55 CODE >204:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+577 text55 CODE >204:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+57A text55 CODE >205:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+57E text55 CODE >206:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+597 text55 CODE >207:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+59C text55 CODE >208:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5A0 text55 CODE >211:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5A0 text55 CODE >215:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5AA text55 CODE >216:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5B2 text55 CODE >218:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5B7 text55 CODE >219:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5B8 text55 CODE >225:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5BC text55 CODE >226:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5BD text55 CODE >227:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5BE text55 CODE >230:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5C2 text55 CODE >231:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5C2 text55 CODE >232:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5C4 text55 CODE >232:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5C7 text55 CODE >233:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5CB text55 CODE >234:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5CC text55 CODE >235:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+5CC text55 CODE >237:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+1435 text54 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1435 text54 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+143A text54 CODE >27:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+143E text54 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1442 text54 CODE >29:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1443 text54 CODE >33:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1448 text54 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+144D text54 CODE >37:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1455 text54 CODE >40:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1456 text54 CODE >42:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1457 text54 CODE >43:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1458 text54 CODE >46:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1460 text54 CODE >49:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1465 text54 CODE >50:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1469 text54 CODE >51:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+146D text54 CODE >52:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+146E text54 CODE >56:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1473 text54 CODE >58:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1478 text54 CODE >60:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1480 text54 CODE >63:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1481 text54 CODE >65:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1482 text54 CODE >66:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1483 text54 CODE >69:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+148B text54 CODE >70:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+148B text54 CODE >75:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+148F text54 CODE >75:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1493 text54 CODE >76:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+149B text54 CODE >77:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+149F text54 CODE >78:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14A3 text54 CODE >79:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14AC text54 CODE >83:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14B1 text54 CODE >84:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14B1 text54 CODE >85:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14BA text54 CODE >89:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14C2 text54 CODE >89:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14C8 text54 CODE >89:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14CC text54 CODE >92:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14D4 text54 CODE >93:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14DC text54 CODE >94:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14E4 text54 CODE >96:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14E5 text54 CODE >97:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14E6 text54 CODE >100:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14EB text54 CODE >101:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14ED text54 CODE >101:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14F4 text54 CODE >102:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14F6 text54 CODE >102:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+14FD text54 CODE >103:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1501 text54 CODE >104:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1502 text54 CODE >106:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1504 text54 CODE >106:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+150B text54 CODE >112:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+150D text54 CODE >112:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1511 text54 CODE >112:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1515 text54 CODE >112:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1519 text54 CODE >112:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+151D text54 CODE >115:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+151E text54 CODE >116:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1521 text54 CODE >116:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1525 text54 CODE >116:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1529 text54 CODE >116:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+152C text54 CODE >118:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1530 text54 CODE >97:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1532 text54 CODE >97:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1536 text54 CODE >122:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+153A text54 CODE >122:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+153E text54 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1540 text54 CODE >128:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1542 text54 CODE >128:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1549 text54 CODE >129:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+154D text54 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+154E text54 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1550 text54 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1557 text54 CODE >133:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1559 text54 CODE >133:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+155D text54 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1561 text54 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1562 text54 CODE >140:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1566 text54 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1576 text54 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+157A text54 CODE >142:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+157C text54 CODE >143:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+157D text54 CODE >144:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+157D text54 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1582 text54 CODE >150:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1587 text54 CODE >151:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+158A text54 CODE >151:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+158E text54 CODE >151:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1592 text54 CODE >151:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1595 text54 CODE >152:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1599 text54 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15B2 text54 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15B4 text54 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15B8 text54 CODE >159:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15BD text54 CODE >159:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15C1 text54 CODE >159:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15C5 text54 CODE >160:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15CB text54 CODE >161:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15D3 text54 CODE >165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15DA text54 CODE >165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15DE text54 CODE >165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15E2 text54 CODE >166:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15E6 text54 CODE >167:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15EE text54 CODE >169:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15EF text54 CODE >170:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15EF text54 CODE >173:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15F3 text54 CODE >175:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15F7 text54 CODE >176:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15F8 text54 CODE >177:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15F9 text54 CODE >180:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15FD text54 CODE >181:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15FD text54 CODE >182:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+15FF text54 CODE >182:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1602 text54 CODE >183:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1607 text54 CODE >185:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+1063 text53 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1064 text53 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+106D text53 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1076 text53 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1078 text53 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+107A text53 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+107C text53 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+107D text53 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1085 text53 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1085 text53 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1089 text53 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+108D text53 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1096 text53 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1098 text53 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1099 text53 CODE >25:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+109D text53 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+109E text53 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10A4 text53 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10A6 text53 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10AD text53 CODE >29:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10B1 text53 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10B4 text53 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10B8 text53 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10BC text53 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10BF text53 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10C0 text53 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10C6 text53 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10C8 text53 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10C8 text53 CODE >32:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10CF text53 CODE >34:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10D1 text53 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10D3 text53 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10DA text53 CODE >33:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10E0 text53 CODE >33:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10E4 text53 CODE >37:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10E8 text53 CODE >38:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10F0 text53 CODE >39:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10F2 text53 CODE >40:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10F8 text53 CODE >40:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+10FE text53 CODE >40:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1108 text53 CODE >41:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1111 text53 CODE >42:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1112 text53 CODE >43:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+111A text53 CODE >44:/opt/microchip/xc8/v2.45/pic/sources/c99/common/xxtofl.c
+1968 text52 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+1968 text52 CODE >15:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+196B text52 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+1972 text52 CODE >17:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+1984 text52 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+1988 text52 CODE >19:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+1B9A text51 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/humidity.c
+1B9A text51 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/humidity.c
+1BA0 text51 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/humidity.c
+1BAB text51 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/humidity.c
+1BEF text51 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/humidity.c
+19F8 text50 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+19F9 text50 CODE >5:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+19FB text50 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A02 text50 CODE >51:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A06 text50 CODE >52:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A08 text50 CODE >52:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A0C text50 CODE >53:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A0C text50 CODE >54:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A0D text50 CODE >54:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A11 text50 CODE >54:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A13 text50 CODE >55:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A15 text50 CODE >56:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A1A text50 CODE >59:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+1A1E text50 CODE >60:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul8_16.c
+30 text49 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+30 text49 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+35 text49 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+39 text49 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+3D text49 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+3E text49 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+43 text49 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+48 text49 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+50 text49 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+51 text49 CODE >33:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+52 text49 CODE >36:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+5A text49 CODE >39:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+5F text49 CODE >40:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+63 text49 CODE >41:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+67 text49 CODE >42:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+68 text49 CODE >45:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+6D text49 CODE >48:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+72 text49 CODE >50:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+7A text49 CODE >53:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+7B text49 CODE >54:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+7C text49 CODE >57:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+84 text49 CODE >65:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+8E text49 CODE >66:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+97 text49 CODE >119:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+A5 text49 CODE >120:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+B2 text49 CODE >121:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+BF text49 CODE >122:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+CD text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+D5 text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+D6 text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+D8 text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+DC text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+DD text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+DF text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+E3 text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+E4 text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+E6 text49 CODE >123:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+E9 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+F1 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+F2 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+F4 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+F8 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+F9 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+FB text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+FF text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+100 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+102 text49 CODE >124:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+105 text49 CODE >125:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+113 text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+11B text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+11C text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+11E text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+122 text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+123 text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+125 text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+129 text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+12A text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+12C text49 CODE >126:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+12F text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+137 text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+138 text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+13A text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+13E text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+13F text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+141 text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+145 text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+146 text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+148 text49 CODE >127:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+14B text49 CODE >128:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+14D text49 CODE >128:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+154 text49 CODE >129:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+162 text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+16B text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+16C text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+16E text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+172 text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+173 text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+175 text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+179 text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+17A text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+17C text49 CODE >130:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+17F text49 CODE >131:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+18D text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+196 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+197 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+199 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+19D text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+19E text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1A0 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1A4 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1A5 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1A7 text49 CODE >132:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1AA text49 CODE >133:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1AC text49 CODE >133:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1B3 text49 CODE >134:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1C1 text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1CA text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1CB text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1CD text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1D1 text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1D2 text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1D4 text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1D8 text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1D9 text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1DB text49 CODE >135:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1DE text49 CODE >136:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1EC text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1F5 text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1F6 text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1F8 text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1FC text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1FD text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1FF text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+203 text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+204 text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+206 text49 CODE >137:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+209 text49 CODE >138:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+217 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+220 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+221 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+223 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+227 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+228 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+22A text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+22E text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+22F text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+231 text49 CODE >139:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+234 text49 CODE >140:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+242 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+249 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+24F text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+254 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+255 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+257 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+25B text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+25C text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+25E text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+262 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+263 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+265 text49 CODE >141:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+268 text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+271 text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+277 text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+27C text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+27D text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+27F text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+283 text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+284 text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+286 text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+28A text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+28B text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+28D text49 CODE >145:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+290 text49 CODE >146:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+292 text49 CODE >146:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+299 text49 CODE >149:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2A2 text49 CODE >149:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2A6 text49 CODE >152:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2A7 text49 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2A9 text49 CODE >153:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2B0 text49 CODE >154:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2B4 text49 CODE >155:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2B5 text49 CODE >157:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2B7 text49 CODE >157:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2BE text49 CODE >158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2C0 text49 CODE >158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2C4 text49 CODE >152:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2C8 text49 CODE >163:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2C9 text49 CODE >164:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2CD text49 CODE >165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2DD text49 CODE >165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2E1 text49 CODE >166:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2E3 text49 CODE >167:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2E4 text49 CODE >168:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2E4 text49 CODE >169:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2E9 text49 CODE >174:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2EE text49 CODE >175:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2F1 text49 CODE >175:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2F5 text49 CODE >175:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2F9 text49 CODE >175:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+2FC text49 CODE >176:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+300 text49 CODE >177:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+319 text49 CODE >178:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+31B text49 CODE >178:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+31F text49 CODE >183:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+324 text49 CODE >183:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+328 text49 CODE >183:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+32C text49 CODE >184:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+336 text49 CODE >185:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+337 text49 CODE >187:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+33E text49 CODE >187:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+342 text49 CODE >187:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+346 text49 CODE >188:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+350 text49 CODE >190:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+351 text49 CODE >191:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+352 text49 CODE >194:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+356 text49 CODE >195:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+35E text49 CODE >196:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+362 text49 CODE >197:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+363 text49 CODE >199:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+365 text49 CODE >199:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+368 text49 CODE >200:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+368 text49 CODE >201:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+36C text49 CODE >203:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+374 text49 CODE >205:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+1005 text48 CODE >29:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1005 text48 CODE >32:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1005 text48 CODE >34:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+100A text48 CODE >35:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1018 text48 CODE >36:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+102B text48 CODE >37:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1030 text48 CODE >39:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1062 text48 CODE >40:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+30 text47 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+30 text47 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+36 text47 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+3F text47 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+1B0D text46 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/temperature.c
+1B0D text46 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/temperature.c
+1B13 text46 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/temperature.c
+1B1E text46 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/temperature.c
+1B4B text46 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/temperature.c
+40 text45 CODE >40:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+40 text45 CODE >42:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+43 text45 CODE >43:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+44 text45 CODE >44:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1000 text44 CODE >15:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+1000 text44 CODE >17:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+1004 text44 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+1DC9 text43 CODE >43:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DC9 text43 CODE >47:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DD4 text43 CODE >48:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DDD text43 CODE >49:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DE6 text43 CODE >49:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DEC text43 CODE >49:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DF0 text43 CODE >50:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DF1 text43 CODE >51:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DF9 text43 CODE >52:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DFB text43 CODE >53:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1DFF text43 CODE >54:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E02 text43 CODE >54:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E07 text43 CODE >57:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E08 text43 CODE >57:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E0E text43 CODE >57:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E19 text43 CODE >60:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E1B text43 CODE >60:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E20 text43 CODE >63:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E22 text43 CODE >63:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E29 text43 CODE >64:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E2B text43 CODE >62:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E2B text43 CODE >65:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E30 text43 CODE >67:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E35 text43 CODE >68:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E3A text43 CODE >68:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E3C text43 CODE >68:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E3E text43 CODE >68:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1E40 text43 CODE >70:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fltol.c
+1A72 text42 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+1A72 text42 CODE >20:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+1A9C text42 CODE >21:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+1CF7 text41 CODE >5:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1CF7 text41 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1CF8 text41 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1CFC text41 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1CFF text41 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D01 text41 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D03 text41 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D07 text41 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D0A text41 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D0C text41 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D10 text41 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D12 text41 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D18 text41 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D1A text41 CODE >25:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D1B text41 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D1C text41 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D20 text41 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D22 text41 CODE >27:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D26 text41 CODE >25:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D2A text41 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D2B text41 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D2F text41 CODE >30:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D31 text41 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D33 text41 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D37 text41 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D3B text41 CODE >32:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D3E text41 CODE >32:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D41 text41 CODE >33:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D42 text41 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D43 text41 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D47 text41 CODE >35:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D49 text41 CODE >36:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D4F text41 CODE >38:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D54 text41 CODE >39:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D57 text41 CODE >39:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D59 text41 CODE >40:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1D5D text41 CODE >41:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awdiv.c
+1C9E text40 CODE >5:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1C9E text40 CODE >12:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1C9F text40 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CA3 text40 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CA6 text40 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CA8 text40 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CAA text40 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CAE text40 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CB1 text40 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CB3 text40 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CB9 text40 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CBB text40 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CBC text40 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CBD text40 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CC1 text40 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CC3 text40 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CC7 text40 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CCB text40 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CCD text40 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CD1 text40 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CD5 text40 CODE >27:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CD8 text40 CODE >27:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CDB text40 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CDC text40 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CE0 text40 CODE >28:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CE2 text40 CODE >29:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CE8 text40 CODE >31:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CED text40 CODE >32:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CF0 text40 CODE >32:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CF2 text40 CODE >33:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+1CF6 text40 CODE >34:/opt/microchip/xc8/v2.45/pic/sources/c99/common/awmod.c
+45 text39 CODE >1:/opt/microchip/xc8/v2.45/pic/sources/c99/common/abs.c
+45 text39 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/abs.c
+4F text39 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/abs.c
+55 text39 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/abs.c
+56 text38 CODE >46:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+57 text38 CODE >48:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+57 text38 CODE >49:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+5D text38 CODE >50:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+5F text38 CODE >51:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1BF0 text37 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1BF0 text37 CODE >12:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1BFA text37 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C00 text37 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C01 text37 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C26 text37 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C2A text37 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C2E text37 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C3D text37 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C43 text37 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1C45 text37 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputc.c
+1A48 text36 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A4B text36 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A4D text36 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A4E text36 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A5C text36 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A60 text36 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A64 text36 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+1A71 text36 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/nf_fputs.c
+7C6 text35 CODE >193:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7C9 text35 CODE >205:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7CD text35 CODE >206:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7CF text35 CODE >207:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7CF text35 CODE >208:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7D1 text35 CODE >209:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7D2 text35 CODE >210:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7DF text35 CODE >211:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7E3 text35 CODE >211:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7E7 text35 CODE >209:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7ED text35 CODE >209:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7F1 text35 CODE >209:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7F5 text35 CODE >218:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7FF text35 CODE >226:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+111B text34 CODE >513:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+111E text34 CODE >524:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1125 text34 CODE >533:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+113C text34 CODE >535:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1148 text34 CODE >536:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+114D text34 CODE >541:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+114F text34 CODE >541:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1153 text34 CODE >542:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1163 text34 CODE >543:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1163 text34 CODE >552:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1167 text34 CODE >553:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+116A text34 CODE >554:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+116B text34 CODE >564:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+116F text34 CODE >564:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1173 text34 CODE >565:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1190 text34 CODE >567:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1194 text34 CODE >567:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1198 text34 CODE >571:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+119A text34 CODE >571:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+119E text34 CODE >572:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11B1 text34 CODE >554:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11B7 text34 CODE >554:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11BB text34 CODE >554:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11CC text34 CODE >554:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11D0 text34 CODE >554:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11D4 text34 CODE >576:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11DB text34 CODE >577:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11DD text34 CODE >577:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11E1 text34 CODE >578:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11E7 text34 CODE >582:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+11F4 text34 CODE >583:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1B4C text33 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B4C text33 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B5C text33 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B60 text33 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B68 text33 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B78 text33 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B7C text33 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B84 text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B86 text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B8A text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B8E text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B92 text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B96 text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B98 text33 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1B99 text33 CODE >12:/opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+1F5C text32 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F5C text32 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F6E text32 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F72 text32 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F7A text32 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F8A text32 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F8E text32 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F96 text32 CODE >12:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1F9A text32 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FA5 text32 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FAB text32 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FB1 text32 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FBE text32 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FC2 text32 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FCD text32 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FD3 text32 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FD9 text32 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FE6 text32 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FE8 text32 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FEA text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FEC text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FF0 text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FF4 text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FF8 text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FFC text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FFE text32 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+1FFF text32 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flge.c
+60 text31 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flneg.c
+60 text31 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flneg.c
+64 text31 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flneg.c
+68 text31 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flneg.c
+6A text31 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flneg.c
+6A text31 CODE >20:/opt/microchip/xc8/v2.45/pic/sources/c99/common/flneg.c
+1989 text30 CODE >242:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+1989 text30 CODE >248:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+198D text30 CODE >249:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+19AC text30 CODE >250:/opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+1E41 text29 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E41 text29 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E61 text29 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E6A text29 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E70 text29 CODE >7:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E78 text29 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E87 text29 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E8D text29 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1E93 text29 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1EA1 text29 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1EB0 text29 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1EB6 text29 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1EBC text29 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1EC9 text29 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+1ECD text29 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/__fpclassifyf.c
+11F5 text28 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+11F5 text28 CODE >5:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1215 text28 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+121E text28 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1224 text28 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1230 text28 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1234 text28 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1239 text28 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+123D text28 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1241 text28 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1242 text28 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1248 text28 CODE >12:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1262 text28 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1272 text28 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1277 text28 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1280 text28 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1286 text28 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+128C text28 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1290 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1293 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1294 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1296 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+129A text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+129B text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+129D text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12A1 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12A2 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12A4 text28 CODE >17:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12A7 text28 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12B7 text28 CODE >19:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12B8 text28 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12C1 text28 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12C7 text28 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12CD text28 CODE >21:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12D1 text28 CODE >22:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12DA text28 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12E3 text28 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12E9 text28 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12EF text28 CODE >23:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12F3 text28 CODE >24:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12FB text28 CODE >25:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+12FB text28 CODE >26:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1303 text28 CODE >27:/opt/microchip/xc8/v2.45/pic/sources/c99/common/floorf.c
+1892 text27 CODE >1:/opt/microchip/xc8/v2.45/pic/sources/c99/common/labs.c
+1892 text27 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/labs.c
+18A0 text27 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/labs.c
+18A2 text27 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/labs.c
+18A4 text27 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/labs.c
+18A6 text27 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/labs.c
+19D2 text26 CODE >4:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19D3 text26 CODE >11:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19D5 text26 CODE >12:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19D7 text26 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19D8 text26 CODE >14:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19E1 text26 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19E9 text26 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19E9 text26 CODE >16:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19EC text26 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19F0 text26 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+19F7 text26 CODE >18:/opt/microchip/xc8/v2.45/pic/sources/c99/common/memcpy.c
+18ED text25 CODE >3:/opt/microchip/xc8/v2.45/pic/sources/c99/common/strcpy.c
+18EE text25 CODE >5:/opt/microchip/xc8/v2.45/pic/sources/c99/common/strcpy.c
+18F0 text25 CODE >6:/opt/microchip/xc8/v2.45/pic/sources/c99/common/strcpy.c
+1907 text25 CODE >8:/opt/microchip/xc8/v2.45/pic/sources/c99/common/strcpy.c
+1304 text24 CODE >587:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1307 text24 CODE >595:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1308 text24 CODE >596:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1320 text24 CODE >597:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1347 text24 CODE >598:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+134B text24 CODE >599:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1362 text24 CODE >603:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1366 text24 CODE >604:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1372 text24 CODE >605:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1377 text24 CODE >610:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1387 text24 CODE >619:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+139A text24 CODE >620:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13A1 text24 CODE >621:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13A5 text24 CODE >622:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13A9 text24 CODE >622:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13AD text24 CODE >623:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13B1 text24 CODE >632:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13BA text24 CODE >634:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13BE text24 CODE >634:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13C2 text24 CODE >635:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13DD text24 CODE >637:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13F4 text24 CODE >638:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13FB text24 CODE >639:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+13FF text24 CODE >640:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1403 text24 CODE >640:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1407 text24 CODE >641:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+140B text24 CODE >650:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1414 text24 CODE >652:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1418 text24 CODE >652:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+141C text24 CODE >653:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+19AD text23 CODE >15:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19AD text23 CODE >43:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19AF text23 CODE >45:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19B3 text23 CODE >46:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19B5 text23 CODE >46:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19B9 text23 CODE >47:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19BA text23 CODE >47:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19BE text23 CODE >47:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19C0 text23 CODE >48:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19C1 text23 CODE >48:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19C5 text23 CODE >48:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19C7 text23 CODE >49:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19CD text23 CODE >52:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+19D1 text23 CODE >53:/opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul16.c
+1C46 text22 CODE >1158:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C47 text22 CODE >1159:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C49 text22 CODE >1160:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C54 text22 CODE >1160:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C58 text22 CODE >1161:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C5E text22 CODE >1162:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C6B text22 CODE >1163:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C6C text22 CODE >1166:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C7D text22 CODE >1166:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C81 text22 CODE >1167:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C88 text22 CODE >1165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C95 text22 CODE >1165:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C99 text22 CODE >1170:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1C9D text22 CODE >1171:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1ECE text21 CODE >942:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1ED1 text21 CODE >951:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1ED5 text21 CODE >952:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1EDB text21 CODE >953:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1EDF text21 CODE >957:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1EE2 text21 CODE >959:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1EE4 text21 CODE >959:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1EED text21 CODE >959:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F00 text21 CODE >959:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F04 text21 CODE >961:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F12 text21 CODE >961:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F18 text21 CODE >961:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F1C text21 CODE >962:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F28 text21 CODE >963:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F28 text21 CODE >965:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F2E text21 CODE >979:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F2F text21 CODE >980:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F45 text21 CODE >981:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F49 text21 CODE >981:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F4D text21 CODE >979:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F4F text21 CODE >979:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F54 text21 CODE >979:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1F5B text21 CODE >997:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5CD text20 CODE >1177:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5D0 text20 CODE >1201:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5DD text20 CODE >1201:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5E1 text20 CODE >1202:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5E7 text20 CODE >1204:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5EB text20 CODE >1204:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5F0 text20 CODE >1205:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+5F6 text20 CODE >1265:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+602 text20 CODE >1265:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+606 text20 CODE >1266:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+60C text20 CODE >1267:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+61A text20 CODE >1291:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+622 text20 CODE >1361:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+62A text20 CODE >1361:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+636 text20 CODE >1361:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+63A text20 CODE >1404:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+64B text20 CODE >1406:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+654 text20 CODE >1432:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+667 text20 CODE >1656:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+668 text20 CODE >1657:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+674 text20 CODE >1657:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+678 text20 CODE >1658:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+67E text20 CODE >1659:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+682 text20 CODE >1660:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+683 text20 CODE >1661:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+68D text20 CODE >1661:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+69C text20 CODE >1661:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6AB text20 CODE >1661:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6AF text20 CODE >1662:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6B6 text20 CODE >1665:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6BD text20 CODE >1682:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6D6 text20 CODE >1689:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6DE text20 CODE >1690:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6E6 text20 CODE >1691:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6E7 text20 CODE >1695:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6ED text20 CODE >1696:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6EE text20 CODE >1721:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6F2 text20 CODE >1722:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6F3 text20 CODE >1724:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6F6 text20 CODE >1725:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6F7 text20 CODE >1726:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6FE text20 CODE >1726:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+703 text20 CODE >1726:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+706 text20 CODE >1726:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+709 text20 CODE >1726:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+70C text20 CODE >1728:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+714 text20 CODE >1728:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+719 text20 CODE >1756:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+72E text20 CODE >1757:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+72F text20 CODE >1759:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+744 text20 CODE >1760:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+745 text20 CODE >1761:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+74C text20 CODE >1761:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+751 text20 CODE >1761:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+754 text20 CODE >1761:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+757 text20 CODE >1762:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+75F text20 CODE >1763:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+760 text20 CODE >1790:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+78D text20 CODE >1792:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+79A text20 CODE >1792:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+79F text20 CODE >1792:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7A2 text20 CODE >1806:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7AC text20 CODE >1811:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+7C5 text20 CODE >1814:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A1F text19 CODE >1817:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A22 text19 CODE >1822:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A24 text19 CODE >1826:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A25 text19 CODE >1830:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A37 text19 CODE >1826:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A41 text19 CODE >1826:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A45 text19 CODE >1835:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+1A47 text19 CODE >1840:/opt/microchip/xc8/v2.45/pic/sources/c99/common/doprnt.c
+6B text18 CODE >5:/opt/microchip/xc8/v2.45/pic/sources/c99/common/printf.c
+6E text18 CODE >9:/opt/microchip/xc8/v2.45/pic/sources/c99/common/printf.c
+70 text18 CODE >10:/opt/microchip/xc8/v2.45/pic/sources/c99/common/printf.c
+7A text18 CODE >13:/opt/microchip/xc8/v2.45/pic/sources/c99/common/printf.c
+18D3 text17 CODE >34:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+18D6 text17 CODE >36:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+18EC text17 CODE >38:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+18A7 text16 CODE >29:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+18AA text16 CODE >31:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+18BC text16 CODE >32:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+7B text15 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+7B text15 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+7F text15 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+83 text15 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+87 text15 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+8B text15 CODE >13:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/noise.c
+1608 text14 CODE >60:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1608 text14 CODE >62:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+160E text14 CODE >64:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1616 text14 CODE >65:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+161C text14 CODE >66:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+165E text14 CODE >69:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1669 text14 CODE >69:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+166D text14 CODE >69:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1672 text14 CODE >71:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+167A text14 CODE >72:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1680 text14 CODE >73:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1695 text14 CODE >74:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1699 text14 CODE >74:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+169E text14 CODE >75:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16AA text14 CODE >76:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16B2 text14 CODE >78:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16B5 text14 CODE >80:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16B9 text14 CODE >82:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16C4 text14 CODE >83:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16E1 text14 CODE >84:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+16FE text14 CODE >85:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+171B text14 CODE >87:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+171F text14 CODE >89:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+172A text14 CODE >90:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1733 text14 CODE >91:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1733 text14 CODE >92:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1748 text14 CODE >94:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+175A text14 CODE >95:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+175F text14 CODE >97:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1764 text14 CODE >97:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+176A text14 CODE >99:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+177A text14 CODE >100:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+178C text14 CODE >101:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17AA text14 CODE >102:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17C8 text14 CODE >103:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17E6 text14 CODE >105:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17EC text14 CODE >107:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17EE text14 CODE >107:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17F2 text14 CODE >108:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+17F3 text14 CODE >111:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+8C text13 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+8C text13 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+8F text13 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+92 text13 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+93 text13 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+94 text13 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+9A text13 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/adc/adc.c
+9B text12 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+9B text12 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+A1 text12 CODE >20:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+A2 text12 CODE >22:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+A3 text11 CODE >24:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+A3 text11 CODE >26:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+A6 text11 CODE >27:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+AB text11 CODE >29:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+AC text10 CODE >31:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+AC text10 CODE >33:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+AF text10 CODE >34:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+B4 text10 CODE >36:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+B5 text9 CODE >45:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+B8 text9 CODE >47:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+BC text9 CODE >48:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+C1 text9 CODE >49:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+C4 text9 CODE >50:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1D5E text8 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D5E text8 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D63 text8 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D69 text8 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D6F text8 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D75 text8 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D7B text8 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D80 text8 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D85 text8 CODE >13:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D8B text8 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D91 text8 CODE >15:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D97 text8 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1D9C text8 CODE >18:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DA1 text8 CODE >19:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DA7 text8 CODE >20:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DAD text8 CODE >21:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DB3 text8 CODE >22:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DB8 text8 CODE >24:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DBD text8 CODE >25:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DC3 text8 CODE >26:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+1DC8 text8 CODE >27:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/sensors/luminosity.c
+C5 text7 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+C5 text7 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+C9 text7 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+CD text7 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+D1 text7 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+D3 text7 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+18BD text6 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18BD text6 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18BE text6 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18BF text6 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18C2 text6 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18C6 text6 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18C8 text6 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18CB text6 CODE >13:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18CE text6 CODE >15:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+18D2 text6 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr2.c
+D4 text5 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+D4 text5 CODE >13:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+D7 text5 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+DC text5 CODE >15:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+E1 text5 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/pwm/pwm.c
+E2 text4 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+E2 text4 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+E3 text4 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+E4 text4 CODE >7:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+E7 text4 CODE >8:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+E8 text4 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+EC text4 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+F0 text4 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+F1 text4 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/timers/tmr0.c
+1927 text3 CODE >3:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1927 text3 CODE >5:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+192A text3 CODE >6:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+192D text3 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1930 text3 CODE >10:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1932 text3 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1933 text3 CODE >13:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1934 text3 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1937 text3 CODE >16:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+193A text3 CODE >17:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+193B text3 CODE >19:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+193E text3 CODE >21:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1941 text3 CODE >22:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1942 text3 CODE >24:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1945 text3 CODE >25:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+1946 text3 CODE >27:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/UART/uart.c
+F2 text2 CODE >9:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+F2 text2 CODE >11:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+F8 text2 CODE >12:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+F9 text2 CODE >14:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/src/protocols/I2C/i2c-v2.c
+1908 text1 CODE >49:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1908 text1 CODE >51:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+190D text1 CODE >52:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1912 text1 CODE >53:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1917 text1 CODE >54:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+191C text1 CODE >55:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1921 text1 CODE >56:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1926 text1 CODE >57:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+FA maintext CODE >42:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+FA maintext CODE >43:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+FF maintext CODE >44:/home/alumno/Escritorio/smart_lamp/smart_lamp.X/main.c
+1876 clrtext CODE >2793:/tmp/xcXecfmba/driver_tmp_1.s
+1876 clrtext CODE >2794:/tmp/xcXecfmba/driver_tmp_1.s
+1877 clrtext CODE >2795:/tmp/xcXecfmba/driver_tmp_1.s
+1877 clrtext CODE >2796:/tmp/xcXecfmba/driver_tmp_1.s
+1878 clrtext CODE >2797:/tmp/xcXecfmba/driver_tmp_1.s
+1879 clrtext CODE >2798:/tmp/xcXecfmba/driver_tmp_1.s
+187A clrtext CODE >2799:/tmp/xcXecfmba/driver_tmp_1.s
+187B clrtext CODE >2800:/tmp/xcXecfmba/driver_tmp_1.s
+187C clrtext CODE >2801:/tmp/xcXecfmba/driver_tmp_1.s
+187D clrtext CODE >2802:/tmp/xcXecfmba/driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_i 1AA 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+___latbits 2 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___fpclassifyf@e 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fpclassifyf@u 22 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fpclassifyf@x 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+putch@data 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+i2c_read@master_ack 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_reset_best_noise 200A 0 CODE 0 text44 dist/default/production/smart_lamp.X.production.o
+_read_adc_channel 32D0 0 CODE 0 text52 dist/default/production/smart_lamp.X.production.o
+__Hspace_0 2000 0 ABS 0 - -
+__Hspace_1 1B6 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+_read_co2_environment 35A2 0 CODE 0 text56 dist/default/production/smart_lamp.X.production.o
+_wait_MSSP 136 0 CODE 0 text12 dist/default/production/smart_lamp.X.production.o
+i1i2c_write@I2C_data 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_read_temperature 3698 0 CODE 0 text46 dist/default/production/smart_lamp.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+i1_i2c_start 20 0 CODE 0 text59 dist/default/production/smart_lamp.X.production.o
+i1_i2c_write 44 0 CODE 0 text57 dist/default/production/smart_lamp.X.production.o
+_i2c_read 328E 0 CODE 0 text60 dist/default/production/smart_lamp.X.production.o
+_i2c_stop 158 0 CODE 0 text10 dist/default/production/smart_lamp.X.production.o
+labs@a 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+?_abs 77 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+?_read_luminosity 3A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+?_vfprintf D5 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+spi_write_read@one_byte 72 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_TMR0 1 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_TXIF 64 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+___sp 0 0 STACK 2 stack /tmp/xcXecfmba/driver_tmp_17.o
+_dbuf 110 0 BANK2 1 bssBANK2 dist/default/production/smart_lamp.X.production.o
+_dtoa 2236 0 CODE 0 text34 dist/default/production/smart_lamp.X.production.o
+_labs 3124 0 CODE 0 text27 dist/default/production/smart_lamp.X.production.o
+_lamp 198 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+_main 1F4 0 CODE 0 maintext dist/default/production/smart_lamp.X.production.o
+_prec ED 0 BANK1 1 bssBANK1 dist/default/production/smart_lamp.X.production.o
+_stoa 3D9C 0 CODE 0 text21 dist/default/production/smart_lamp.X.production.o
+abs@a 77 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+___stack_hi 0 0 STACK 2 stack /tmp/xcXecfmba/driver_tmp_17.o
+___stack_lo 0 0 STACK 2 stack /tmp/xcXecfmba/driver_tmp_17.o
+read_prec_or_width@c 79 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+read_prec_or_width@n 7A 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+pad@i 27 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+pad@p 25 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+start 24 0 CODE 0 init /tmp/xcXecfmba/driver_tmp_17.o
+___flmul@aexp 32 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flmul@bexp 33 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flmul@prod 34 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flmul@sign 2D 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flmul@temp 38 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_i2c_read 32D0 0 CODE 0 text60 dist/default/production/smart_lamp.X.production.o
+__end_of_i2c_stop 16A 0 CODE 0 text10 dist/default/production/smart_lamp.X.production.o
+__end_of_read_luminosity 20C6 0 CODE 0 text48 dist/default/production/smart_lamp.X.production.o
+pad@fp 29 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_OPTION_REGbits 81 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+?_read_noise_channel 7A 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_send_uint16t_to_uart 314E 0 CODE 0 text16 dist/default/production/smart_lamp.X.production.o
+efgtoa@fp AF 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@ne A0 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@ou B4 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@pp A8 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+_take_best_noise F6 0 CODE 0 text15 dist/default/production/smart_lamp.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__end_of_send_PWM_sign 353A 0 CODE 0 text42 dist/default/production/smart_lamp.X.production.o
+stoa@l 25 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+stoa@p 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+stoa@s 79 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_vfpfcnvrt F8C 0 CODE 0 text20 dist/default/production/smart_lamp.X.production.o
+___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXecfmba/driver_tmp_17.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXecfmba/driver_tmp_17.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXecfmba/driver_tmp_17.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXecfmba/driver_tmp_17.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXecfmba/driver_tmp_17.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXecfmba/driver_tmp_17.o
+floorf@e 5C 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+floorf@m 58 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+floorf@u 5E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+floorf@x 4E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+i2c_read@I2C_data 71 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_receive_uart 80 0 CODE 0 text45 dist/default/production/smart_lamp.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+?_floorf 4E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__end_of_interrupt_rutine 3000 0 CODE 0 text14 dist/default/production/smart_lamp.X.production.o
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+?_read_co2_environment 72 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+i2c_write@I2C_data 1B5 0 BANK3 1 cstackBANK3 dist/default/production/smart_lamp.X.production.o
+_vfpfcnvrt B9A 0 CODE 0 text20 dist/default/production/smart_lamp.X.production.o
+__end_ofi1_wait_MSSP 20 0 CODE 0 text61 dist/default/production/smart_lamp.X.production.o
+dtoa@fp 32 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_read_luminosity 200A 0 CODE 0 text48 dist/default/production/smart_lamp.X.production.o
+___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_read_adc_channel 3312 0 CODE 0 text52 dist/default/production/smart_lamp.X.production.o
+_ADRESH 1E 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_ADRESL 9E 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__end_of__Umul8_16 343E 0 CODE 0 text50 dist/default/production/smart_lamp.X.production.o
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_SSPCONbits 14 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_CCPR1L 15 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__end_of___fleq 3734 0 CODE 0 text33 dist/default/production/smart_lamp.X.production.o
+__end_of___flge 4000 0 CODE 0 text32 dist/default/production/smart_lamp.X.production.o
+__end_of___wmul 33A4 0 CODE 0 text23 dist/default/production/smart_lamp.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_i2c_start 158 0 CODE 0 text11 dist/default/production/smart_lamp.X.production.o
+___fldiv@aexp 4D 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fldiv@bexp 4C 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_i2c_write 18A 0 CODE 0 text9 dist/default/production/smart_lamp.X.production.o
+___fldiv@sign 45 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+?_printf D9 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of___awdiv 3ABC 0 CODE 0 text41 dist/default/production/smart_lamp.X.production.o
+__end_of___awmod 39EE 0 CODE 0 text40 dist/default/production/smart_lamp.X.production.o
+__Umul8_16 33F0 0 CODE 0 text50 dist/default/production/smart_lamp.X.production.o
+__end_of___fladd B9A 0 CODE 0 text55 dist/default/production/smart_lamp.X.production.o
+__end_of___fldiv 2C10 0 CODE 0 text54 dist/default/production/smart_lamp.X.production.o
+__end_of___flmul 6EA 0 CODE 0 text49 dist/default/production/smart_lamp.X.production.o
+__end_of___flneg D6 0 CODE 0 text31 dist/default/production/smart_lamp.X.production.o
+__end_of___flsub 335A 0 CODE 0 text30 dist/default/production/smart_lamp.X.production.o
+__end_of___fltol 3C82 0 CODE 0 text43 dist/default/production/smart_lamp.X.production.o
+?___fpclassifyf 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_config_luminosity 3B92 0 CODE 0 text8 dist/default/production/smart_lamp.X.production.o
+__Umul8_16@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___stackhi 0 0 ABS 0 - /tmp/xcXecfmba/driver_tmp_17.o
+___stacklo 0 0 ABS 0 - /tmp/xcXecfmba/driver_tmp_17.o
+__end_of_efgtoa 2000 0 CODE 0 text24_split_1 dist/default/production/smart_lamp.X.production.o
+read_humidity_channel@adc_value 52 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_BAUDCTLbits 187 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__end_of_floorf 2608 0 CODE 0 text28 dist/default/production/smart_lamp.X.production.o
+___fladd@a 24 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fladd@b 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fldiv@a 34 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fldiv@b 38 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flmul@a 24 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flmul@b 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flsub@a 3A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flsub@b 3E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_i2c_start 146 0 CODE 0 text11 dist/default/production/smart_lamp.X.production.o
+_i2c_write 16A 0 CODE 0 text9 dist/default/production/smart_lamp.X.production.o
+memcpy@tmp 74 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_receive_uart 8A 0 CODE 0 text45 dist/default/production/smart_lamp.X.production.o
+start_initialization 2C 0 CODE 0 cinit dist/default/production/smart_lamp.X.production.o
+__end_of_read_noise_channel 80 0 CODE 0 text47 dist/default/production/smart_lamp.X.production.o
+efgtoa@c 66 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+efgtoa@d AB 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@e B0 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@f 62 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+efgtoa@g C5 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@h BA 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@i B8 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@l BE 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@m AD 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@n C3 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@p A2 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@t A4 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@u C9 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@w B2 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@mode A9 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+efgtoa@sign C2 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+__end_of_memcpy 33F0 0 CODE 0 text26 dist/default/production/smart_lamp.X.production.o
+?_read_temperature 4E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_humidity 1A4 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+clear_ram0 30EC 0 CODE 0 clrtext dist/default/production/smart_lamp.X.production.o
+_SPBRGH 9A 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+__pcstackBANK3 1B5 0 BANK3 1 cstackBANK3 dist/default/production/smart_lamp.X.production.o
+_SSPBUF 13 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__end_of_printf F6 0 CODE 0 text18 dist/default/production/smart_lamp.X.production.o
+fputc@fp 73 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+fputs@fp 79 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___int_sp 0 0 STACK 2 stack /tmp/xcXecfmba/driver_tmp_17.o
+_read_noise_channel 60 0 CODE 0 text47 dist/default/production/smart_lamp.X.production.o
+vfpfcnvrt@done CD 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 60 0 CODE 0 cinit -
+__end_of_strcpy 3210 0 CODE 0 text25 dist/default/production/smart_lamp.X.production.o
+__Hstack 0 0 STACK 2 stack -
+__stringbase 301E 0 STRING 0 strings dist/default/production/smart_lamp.X.production.o
+?_read_prec_or_width 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+___xxtofl@arg 7A 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___xxtofl@exp 79 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___xxtofl@val 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+read_adc_channel@adc_value 78 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+efgtoa@nmode AA 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4012 0 CONFIG 4 config -
+_change_brightness_lamp 0 0 CODE 0 text63 dist/default/production/smart_lamp.X.production.o
+__end_ofi1_i2c_start 32 0 CODE 0 text59 dist/default/production/smart_lamp.X.production.o
+__end_ofi1_i2c_write 60 0 CODE 0 text57 dist/default/production/smart_lamp.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit 2C 0 CODE 0 cinit -
+pnum$text24_split_1 4F 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__Lstack 0 0 STACK 2 stack -
+__end_of_read_humidity_channel 37E0 0 CODE 0 text51 dist/default/production/smart_lamp.X.production.o
+_config_luminosity 3ABC 0 CODE 0 text8 dist/default/production/smart_lamp.X.production.o
+___flmul@grs 2E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+send_PWM_sign@percent 4E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_PORTAbits 5 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_PORTCbits 7 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+memcpy@d1 75 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+memcpy@s1 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 24 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 24 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+memcpy@d 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+memcpy@n 71 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+memcpy@s 77 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+send_float_to_uart@name 6F 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fleq 3698 0 CODE 0 text33 dist/default/production/smart_lamp.X.production.o
+___flge 3EB8 0 CODE 0 text32 dist/default/production/smart_lamp.X.production.o
+___wmul 335A 0 CODE 0 text23 dist/default/production/smart_lamp.X.production.o
+__LcstackBANK0 206 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 206 0 ABS 0 cstackBANK1 -
+__LcstackBANK3 206 0 ABS 0 cstackBANK3 -
+psplit$0 25004F 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__HcstackCOMMON 206 0 ABS 0 cstackCOMMON -
+change_color_lamp@B 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+change_color_lamp@G 75 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+change_color_lamp@R 77 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+i1_i2c_stop 32 0 CODE 0 text58 dist/default/production/smart_lamp.X.production.o
+_PR2 92 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__S0 2000 0 ABS 0 - -
+__S1 1B6 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_abs 8A 0 CODE 0 text39 dist/default/production/smart_lamp.X.production.o
+_co2 1B0 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+_pad F8C 0 CODE 0 text35 dist/default/production/smart_lamp.X.production.o
+_read_humidity_channel 3734 0 CODE 0 text51 dist/default/production/smart_lamp.X.production.o
+?_read_adc_channel 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+saved_w 7E 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+___fpclassifyf 3C82 0 CODE 0 text29 dist/default/production/smart_lamp.X.production.o
+_efgtoa 2608 0 CODE 0 text24 dist/default/production/smart_lamp.X.production.o
+__end_of_change_color_lamp 3124 0 CODE 0 text62 dist/default/production/smart_lamp.X.production.o
+_dtoa$1389 2C 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+send_float_to_uart@value E1 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+___xxtofl 20C6 0 CODE 0 text53 dist/default/production/smart_lamp.X.production.o
+_floorf 23EA 0 CODE 0 text28 dist/default/production/smart_lamp.X.production.o
+__end_of_abs AC 0 CODE 0 text39 dist/default/production/smart_lamp.X.production.o
+__end_of_pad 1000 0 CODE 0 text35 dist/default/production/smart_lamp.X.production.o
+spi_write_read@answer 73 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__Lintentry 8 0 CODE 0 intentry -
+__stringtab 3000 0 STRING 0 strings dist/default/production/smart_lamp.X.production.o
+strcpy@d 72 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_config_CCP1 18A 0 CODE 0 text7 dist/default/production/smart_lamp.X.production.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXecfmba/driver_tmp_17.o
+_config_tmr0 1C4 0 CODE 0 text4 dist/default/production/smart_lamp.X.production.o
+_config_tmr2 317A 0 CODE 0 text6 dist/default/production/smart_lamp.X.production.o
+_config_uart 324E 0 CODE 0 text3 dist/default/production/smart_lamp.X.production.o
+__end_of___xxtofl 2236 0 CODE 0 text53 dist/default/production/smart_lamp.X.production.o
+__LbssBANK1 206 0 ABS 0 bssBANK1 -
+__LbssBANK2 206 0 ABS 0 bssBANK2 -
+__LbssBANK3 206 0 ABS 0 bssBANK3 -
+_spi_write_read 353A 0 CODE 0 text64 dist/default/production/smart_lamp.X.production.o
+__end_of_read_co2_environment 361A 0 CODE 0 text56 dist/default/production/smart_lamp.X.production.o
+vfpfcnvrt@fmt 6B 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+take_best_noise@noise 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_RCSTAbits 18 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_PIE1bits 8C 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_memcpy 33A4 0 CODE 0 text26 dist/default/production/smart_lamp.X.production.o
+pad@buf 24 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fladd@signs 30 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__ptext10 158 0 CODE 0 text10 dist/default/production/smart_lamp.X.production.o
+__ptext11 146 0 CODE 0 text11 dist/default/production/smart_lamp.X.production.o
+__ptext12 136 0 CODE 0 text12 dist/default/production/smart_lamp.X.production.o
+__ptext13 118 0 CODE 0 text13 dist/default/production/smart_lamp.X.production.o
+__ptext14 2C10 0 CODE 0 text14 dist/default/production/smart_lamp.X.production.o
+__ptext15 F6 0 CODE 0 text15 dist/default/production/smart_lamp.X.production.o
+__ptext16 314E 0 CODE 0 text16 dist/default/production/smart_lamp.X.production.o
+__ptext17 31A6 0 CODE 0 text17 dist/default/production/smart_lamp.X.production.o
+__ptext18 D6 0 CODE 0 text18 dist/default/production/smart_lamp.X.production.o
+__ptext19 343E 0 CODE 0 text19 dist/default/production/smart_lamp.X.production.o
+__ptext20 B9A 0 CODE 0 text20 dist/default/production/smart_lamp.X.production.o
+__ptext21 3D9C 0 CODE 0 text21 dist/default/production/smart_lamp.X.production.o
+__ptext22 388C 0 CODE 0 text22 dist/default/production/smart_lamp.X.production.o
+__ptext23 335A 0 CODE 0 text23 dist/default/production/smart_lamp.X.production.o
+__ptext24 2608 0 CODE 0 text24 dist/default/production/smart_lamp.X.production.o
+__ptext25 31DA 0 CODE 0 text25 dist/default/production/smart_lamp.X.production.o
+__ptext26 33A4 0 CODE 0 text26 dist/default/production/smart_lamp.X.production.o
+__ptext27 3124 0 CODE 0 text27 dist/default/production/smart_lamp.X.production.o
+__ptext28 23EA 0 CODE 0 text28 dist/default/production/smart_lamp.X.production.o
+__ptext29 3C82 0 CODE 0 text29 dist/default/production/smart_lamp.X.production.o
+__ptext30 3312 0 CODE 0 text30 dist/default/production/smart_lamp.X.production.o
+__ptext31 C0 0 CODE 0 text31 dist/default/production/smart_lamp.X.production.o
+__ptext32 3EB8 0 CODE 0 text32 dist/default/production/smart_lamp.X.production.o
+__ptext33 3698 0 CODE 0 text33 dist/default/production/smart_lamp.X.production.o
+__ptext34 2236 0 CODE 0 text34 dist/default/production/smart_lamp.X.production.o
+__ptext35 F8C 0 CODE 0 text35 dist/default/production/smart_lamp.X.production.o
+__ptext36 3490 0 CODE 0 text36 dist/default/production/smart_lamp.X.production.o
+__ptext37 37E0 0 CODE 0 text37 dist/default/production/smart_lamp.X.production.o
+__ptext38 AC 0 CODE 0 text38 dist/default/production/smart_lamp.X.production.o
+__ptext39 8A 0 CODE 0 text39 dist/default/production/smart_lamp.X.production.o
+__ptext40 393C 0 CODE 0 text40 dist/default/production/smart_lamp.X.production.o
+__ptext41 39EE 0 CODE 0 text41 dist/default/production/smart_lamp.X.production.o
+__ptext42 34E4 0 CODE 0 text42 dist/default/production/smart_lamp.X.production.o
+__ptext43 3B92 0 CODE 0 text43 dist/default/production/smart_lamp.X.production.o
+__ptext44 2000 0 CODE 0 text44 dist/default/production/smart_lamp.X.production.o
+__ptext45 80 0 CODE 0 text45 dist/default/production/smart_lamp.X.production.o
+__ptext46 361A 0 CODE 0 text46 dist/default/production/smart_lamp.X.production.o
+__ptext47 60 0 CODE 0 text47 dist/default/production/smart_lamp.X.production.o
+__ptext48 200A 0 CODE 0 text48 dist/default/production/smart_lamp.X.production.o
+__ptext49 60 0 CODE 0 text49 dist/default/production/smart_lamp.X.production.o
+__ptext50 33F0 0 CODE 0 text50 dist/default/production/smart_lamp.X.production.o
+__ptext51 3734 0 CODE 0 text51 dist/default/production/smart_lamp.X.production.o
+__ptext52 32D0 0 CODE 0 text52 dist/default/production/smart_lamp.X.production.o
+__ptext53 20C6 0 CODE 0 text53 dist/default/production/smart_lamp.X.production.o
+__ptext54 286A 0 CODE 0 text54 dist/default/production/smart_lamp.X.production.o
+__ptext55 6EA 0 CODE 0 text55 dist/default/production/smart_lamp.X.production.o
+__ptext56 35A2 0 CODE 0 text56 dist/default/production/smart_lamp.X.production.o
+__ptext57 44 0 CODE 0 text57 dist/default/production/smart_lamp.X.production.o
+__ptext58 32 0 CODE 0 text58 dist/default/production/smart_lamp.X.production.o
+__ptext59 20 0 CODE 0 text59 dist/default/production/smart_lamp.X.production.o
+__ptext60 328E 0 CODE 0 text60 dist/default/production/smart_lamp.X.production.o
+__ptext61 10 0 CODE 0 text61 dist/default/production/smart_lamp.X.production.o
+__ptext62 30FC 0 CODE 0 text62 dist/default/production/smart_lamp.X.production.o
+__ptext63 0 0 CODE 0 text63 dist/default/production/smart_lamp.X.production.o
+__ptext64 353A 0 CODE 0 text64 dist/default/production/smart_lamp.X.production.o
+___awdiv 39EE 0 CODE 0 text41 dist/default/production/smart_lamp.X.production.o
+___awmod 393C 0 CODE 0 text40 dist/default/production/smart_lamp.X.production.o
+___fladd 6EA 0 CODE 0 text55 dist/default/production/smart_lamp.X.production.o
+___fldiv 286A 0 CODE 0 text54 dist/default/production/smart_lamp.X.production.o
+___flmul 60 0 CODE 0 text49 dist/default/production/smart_lamp.X.production.o
+___flneg C0 0 CODE 0 text31 dist/default/production/smart_lamp.X.production.o
+___flsub 3312 0 CODE 0 text30 dist/default/production/smart_lamp.X.production.o
+___fltol 3B92 0 CODE 0 text43 dist/default/production/smart_lamp.X.production.o
+__end_ofi1_i2c_stop 44 0 CODE 0 text58 dist/default/production/smart_lamp.X.production.o
+__pmaintext 1F4 0 CODE 0 maintext dist/default/production/smart_lamp.X.production.o
+__Umul8_16@multiplier 78 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+?_labs 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+_printf D6 0 CODE 0 text18 dist/default/production/smart_lamp.X.production.o
+___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___fldiv@grs 48 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fldiv@rem 41 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_read_prec_or_width 393C 0 CODE 0 text22 dist/default/production/smart_lamp.X.production.o
+_config_pwm 1A8 0 CODE 0 text5 dist/default/production/smart_lamp.X.production.o
+_config_sma 3210 0 CODE 0 text1 dist/default/production/smart_lamp.X.production.o
+?_read_humidity_channel 4E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_send_float_to_uart 31DA 0 CODE 0 text17 dist/default/production/smart_lamp.X.production.o
+_serial EF 0 BANK1 1 bssBANK1 dist/default/production/smart_lamp.X.production.o
+_strcpy 31DA 0 CODE 0 text25 dist/default/production/smart_lamp.X.production.o
+___fldiv@new_exp 46 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_send_uint16t_to_uart 317A 0 CODE 0 text16 dist/default/production/smart_lamp.X.production.o
+read_co2_environment@co2_value 78 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_i2c_config 1E4 0 CODE 0 text2 dist/default/production/smart_lamp.X.production.o
+stoa@cp 23 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+stoa@fp 22 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_brightness 1A0 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+_ADCON0bits 1F 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_ADCON1bits 9F 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+___fladd@grs 33 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of__stringtab 3020 0 STRING 0 strings dist/default/production/smart_lamp.X.production.o
+strcpy@dest 73 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___fleq@ff1 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___fleq@ff2 74 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_spi_write_read 35A2 0 CODE 0 text64 dist/default/production/smart_lamp.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 206 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 206 0 ABS 0 cstackBANK1 -
+__HcstackBANK3 206 0 ABS 0 cstackBANK3 -
+__Umul8_16@product 74 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___flge@ff1 3A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___flge@ff2 3E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_PIR1bits C 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__Lend_init 24 0 CODE 0 end_init -
+vfpfcnvrt@convarg CE 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+_change_color_lamp 30FC 0 CODE 0 text62 dist/default/production/smart_lamp.X.production.o
+__LcstackCOMMON 206 0 ABS 0 cstackCOMMON -
+___fltol@exp1 43 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+printf@ap E0 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+end_of_initialization 58 0 CODE 0 cinit dist/default/production/smart_lamp.X.production.o
+send_uint16t_to_uart@value E1 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+_read_prec_or_width 388C 0 CODE 0 text22 dist/default/production/smart_lamp.X.production.o
+__Hintentry 24 0 CODE 0 intentry -
+fputc@c 71 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+fputs@c 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+fputs@i 21 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+fputs@s 23 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_change_brightness_lamp 10 0 CODE 0 text63 dist/default/production/smart_lamp.X.production.o
+_send_float_to_uart 31A6 0 CODE 0 text17 dist/default/production/smart_lamp.X.production.o
+read_luminosity@lum 42 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+pnum$text24 25 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+?___awmod 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+?___fladd 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+?___fldiv 34 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+?___flmul 20 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+?___flneg 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+?___flsub 3A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+?___fltol 3A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+vfprintf@fmt D5 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__HbssBANK1 206 0 ABS 0 bssBANK1 -
+__HbssBANK2 206 0 ABS 0 bssBANK2 -
+__HbssBANK3 206 0 ABS 0 bssBANK3 -
+___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_config_adc_channel 136 0 CODE 0 text13 dist/default/production/smart_lamp.X.production.o
+i1_wait_MSSP 10 0 CODE 0 text61 dist/default/production/smart_lamp.X.production.o
+_SSPCON2bits 91 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+vfpfcnvrt@ap 6C 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+vfpfcnvrt@cp D4 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+vfpfcnvrt@fp D3 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+___flneg@f1 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__ptext1 3210 0 CODE 0 text1 dist/default/production/smart_lamp.X.production.o
+__ptext2 1E4 0 CODE 0 text2 dist/default/production/smart_lamp.X.production.o
+__ptext3 324E 0 CODE 0 text3 dist/default/production/smart_lamp.X.production.o
+__ptext4 1C4 0 CODE 0 text4 dist/default/production/smart_lamp.X.production.o
+__ptext5 1A8 0 CODE 0 text5 dist/default/production/smart_lamp.X.production.o
+__ptext6 317A 0 CODE 0 text6 dist/default/production/smart_lamp.X.production.o
+__ptext7 18A 0 CODE 0 text7 dist/default/production/smart_lamp.X.production.o
+__ptext8 3ABC 0 CODE 0 text8 dist/default/production/smart_lamp.X.production.o
+__ptext9 16A 0 CODE 0 text9 dist/default/production/smart_lamp.X.production.o
+vfprintf@ap D6 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+vfprintf@fp D7 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+vfprintf@cfmt D8 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+?__Umul8_16 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_config_pwm 1C4 0 CODE 0 text5 dist/default/production/smart_lamp.X.production.o
+__end_of_config_sma 324E 0 CODE 0 text1 dist/default/production/smart_lamp.X.production.o
+_vfprintf 343E 0 CODE 0 text19 dist/default/production/smart_lamp.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+?___xxtofl 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of___fpclassifyf 3D9C 0 CODE 0 text29 dist/default/production/smart_lamp.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+___fladd@aexp 31 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___fladd@bexp 32 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__Umul8_16@word_mpld 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+___fltol@sign1 42 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+_timer_counter 1AC 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+__end_of_i2c_config 1F4 0 CODE 0 text2 dist/default/production/smart_lamp.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_best_noise 1B2 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+__end_of_vfprintf 3490 0 CODE 0 text19 dist/default/production/smart_lamp.X.production.o
+___heap_hi 0 0 ABS 0 - /tmp/xcXecfmba/driver_tmp_17.o
+___heap_lo 0 0 ABS 0 - /tmp/xcXecfmba/driver_tmp_17.o
+_reset_best_noise 2000 0 CODE 0 text44 dist/default/production/smart_lamp.X.production.o
+_send_PWM_sign 34E4 0 CODE 0 text42 dist/default/production/smart_lamp.X.production.o
+___fltol@f1 3A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+strcpy@src 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of__initialization 58 0 CODE 0 cinit dist/default/production/smart_lamp.X.production.o
+___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+spi_write_read@x 74 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+_config_adc_channel 118 0 CODE 0 text13 dist/default/production/smart_lamp.X.production.o
+_read_temperature 361A 0 CODE 0 text46 dist/default/production/smart_lamp.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_TXSTAbits 98 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+___fpclassifyf@F465 194 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+__Hend_init 2C 0 CODE 0 end_init -
+vfpfcnvrt@c D2 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+change_brightness_lamp@brightness 75 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__end_of_dtoa 23EA 0 CODE 0 text34 dist/default/production/smart_lamp.X.production.o
+__end_of_labs 314E 0 CODE 0 text27 dist/default/production/smart_lamp.X.production.o
+__end_of_main 206 0 CODE 0 maintext dist/default/production/smart_lamp.X.production.o
+__end_of_stoa 3EB8 0 CODE 0 text21 dist/default/production/smart_lamp.X.production.o
+printf@fmt DF 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+__end_of_fputc 388C 0 CODE 0 text37 dist/default/production/smart_lamp.X.production.o
+__end_of_fputs 34E4 0 CODE 0 text36 dist/default/production/smart_lamp.X.production.o
+_RCREG 1A 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_SPBRG 99 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_TRISC 87 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+_TXREG 19 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__end_of_putch C0 0 CODE 0 text38 dist/default/production/smart_lamp.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+interrupt_function 8 0 CODE 0 intentry dist/default/production/smart_lamp.X.production.o
+_flags 1B4 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+_fputc 37E0 0 CODE 0 text37 dist/default/production/smart_lamp.X.production.o
+_fputs 3490 0 CODE 0 text36 dist/default/production/smart_lamp.X.production.o
+_noise 1AE 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+_putch AC 0 CODE 0 text38 dist/default/production/smart_lamp.X.production.o
+read_prec_or_width@fmt 7C 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+_efgtoa$1420 A6 0 BANK1 1 cstackBANK1 dist/default/production/smart_lamp.X.production.o
+_width 1A8 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+_temperature 19C 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+floorf@F521 190 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production/smart_lamp.X.production.o
+__initialization 2C 0 CODE 0 cinit dist/default/production/smart_lamp.X.production.o
+___xxtofl@sign 78 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+__pbssBANK1 ED 0 BANK1 1 bssBANK1 dist/default/production/smart_lamp.X.production.o
+__pbssBANK2 110 0 BANK2 1 bssBANK2 dist/default/production/smart_lamp.X.production.o
+__pbssBANK3 190 0 BANK3 1 bssBANK3 dist/default/production/smart_lamp.X.production.o
+__end_of_config_CCP1 1A8 0 CODE 0 text7 dist/default/production/smart_lamp.X.production.o
+__end_of_config_tmr0 1E4 0 CODE 0 text4 dist/default/production/smart_lamp.X.production.o
+__end_of_config_tmr2 31A6 0 CODE 0 text6 dist/default/production/smart_lamp.X.production.o
+__end_of_config_uart 328E 0 CODE 0 text3 dist/default/production/smart_lamp.X.production.o
+_T2CONbits 12 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+__pstrings 3000 0 STRING 0 strings dist/default/production/smart_lamp.X.production.o
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+dtoa@d 2A 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+dtoa@i 34 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+dtoa@p 30 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+dtoa@s 33 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+dtoa@w 2E 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_wait_MSSP 146 0 CODE 0 text12 dist/default/production/smart_lamp.X.production.o
+_interrupt_rutine 2C10 0 CODE 0 text14 dist/default/production/smart_lamp.X.production.o
+read_temperature@adc_value 52 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+__end_of_take_best_noise 118 0 CODE 0 text15 dist/default/production/smart_lamp.X.production.o
+_CCP1CONbits 17 0 ABS 0 - dist/default/production/smart_lamp.X.production.o
+send_uint16t_to_uart@name 6F 0 BANK0 1 cstackBANK0 dist/default/production/smart_lamp.X.production.o
+___int_stack_hi 0 0 STACK 2 stack /tmp/xcXecfmba/driver_tmp_17.o
+___int_stack_lo 0 0 STACK 2 stack /tmp/xcXecfmba/driver_tmp_17.o
+read_prec_or_width@ap 76 0 COMMON 1 cstackCOMMON dist/default/production/smart_lamp.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+text24 text24_split_1
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 1908 3210 1F 2
+text3 0 1927 324E 20 2
+text6 0 18BD 317A 16 2
+text8 0 1D5E 3ABC 6B 2
+text14 0 1608 2C10 1F8 2
+text16 0 18A7 314E 16 2
+text17 0 18D3 31A6 1A 2
+text19 0 1A1F 343E 29 2
+text21 0 1ECE 3D9C 8E 2
+text22 0 1C46 388C 58 2
+text23 0 19AD 335A 25 2
+text24 0 1304 2608 131 2
+text25 0 18ED 31DA 1B 2
+text26 0 19D2 33A4 26 2
+text27 0 1892 3124 15 2
+text28 0 11F5 23EA 10F 2
+text29 0 1E41 3C82 8D 2
+text30 0 1989 3312 24 2
+text32 0 1F5C 3EB8 A4 2
+text33 0 1B4C 3698 4E 2
+text34 0 111B 2236 DA 2
+text36 0 1A48 3490 2A 2
+text37 0 1BF0 37E0 56 2
+text40 0 1C9E 393C 59 2
+text41 0 1CF7 39EE 67 2
+text42 0 1A72 34E4 2B 2
+text43 0 1DC9 3B92 78 2
+text46 0 1B0D 361A 3F 2
+text48 0 1005 200A 5E 2
+text50 0 19F8 33F0 27 2
+text51 0 1B9A 3734 56 2
+text52 0 1968 32D0 21 2
+text53 0 1063 20C6 B8 2
+text54 0 1435 286A 1D3 2
+text56 0 1AD1 35A2 3C 2
+text60 0 1947 328E 21 2
+text62 0 187E 30FC 14 2
+text64 0 1A9D 353A 34 2
+cstackCOMMON 1 70 70 E 1
+text24_split_1 0 801 1002 804 2
+cstackBANK0 1 20 20 50 1
+cstackBANK1 1 A0 A0 50 1
+intentry 0 4 8 7FC 2
+reset_vec 0 0 0 3 2
+bssBANK2 1 110 110 50 1
+bssBANK3 1 190 190 26 1
+strings 0 1800 3000 76 2
+clrtext 0 1876 30EC 8 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
